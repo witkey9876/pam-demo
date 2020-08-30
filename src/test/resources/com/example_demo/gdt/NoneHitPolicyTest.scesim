@@ -144,10 +144,9 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598765166905</name>
-              <type>EXPECT</type>
+              <name>1598765235505</name>
+              <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -155,10 +154,10 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598765235505</name>
-              <type>GIVEN</type>
+              <name>1598765166905</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">default</rawValue>
+            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -201,10 +200,9 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598765166905</name>
-              <type>EXPECT</type>
+              <name>1598765235505</name>
+              <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -212,10 +210,10 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598765235505</name>
-              <type>GIVEN</type>
+              <name>1598765166905</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">default</rawValue>
+            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -259,10 +257,9 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598765166905</name>
-              <type>EXPECT</type>
+              <name>1598765235505</name>
+              <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -270,10 +267,10 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598765235505</name>
-              <type>GIVEN</type>
+              <name>1598765166905</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">default</rawValue>
+            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
