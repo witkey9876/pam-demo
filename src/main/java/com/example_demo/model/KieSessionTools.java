@@ -29,8 +29,8 @@ public class KieSessionTools {
     public static final void fired(KnowledgeHelper helper,String groupName,Object ...facts){
 
         sessionsPool = getSessionsPool(helper);
-//        KieSession kieSession = helper.getKieRuntime().getKieBase().newKieSession();
-        KieSession kieSession = sessionsPool.newKieSession();
+        KieSession kieSession = helper.getKieRuntime().getKieBase().newKieSession();
+//        KieSession kieSession = sessionsPool.newKieSession();
         for(Object fact:facts) {
             kieSession.insert(fact);
         }
