@@ -19,7 +19,7 @@
         </field-data>
         <field-data>
           <name>loginAccount</name>
-          <value></value>
+          <value>redhat</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -31,7 +31,7 @@
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>40</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -39,8 +39,8 @@
           <fieldName>boolResult</fieldName>
           <expected>true</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[art] field [boolResult] was [] expected [true].</explanation>
+          <successResult>true</successResult>
+          <explanation>[art] field [boolResult] was [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -49,7 +49,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-30 13:35:39.893 UTC</lastRunResult>
+  <lastRunResult>2020-08-30 13:36:51.99 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.example_demo.example</packageName>
