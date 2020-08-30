@@ -89,9 +89,7 @@
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>ActionResultDO bool = new ActionResultDO();bool.setStr(&quot;abcd&quot;);
-insert(bool);insert(customer);
-getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus();
- drools.getKieRuntime().getKieBase().newKieSession().fireAllRules();
+KieSessionTools.fired(drools,&quot;customer-status&quot;,bool,customer);
  
 
 </text>
@@ -101,18 +99,14 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>ActionResultDO bool1 = new ActionResultDO();bool1.setStr(&quot;abcd&quot;);
-insert(bool1);insert(customer);
-getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
-drools.getKieRuntime().getKieBase().newKieSession().fireAllRules();
+KieSessionTools.fired(drools,&quot;customer-login-account&quot;,bool1,customer);
  </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;step2&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>insert(log);insert(bool1);insert(bool);
-getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); drools.getKieRuntime().getKieBase().newKieSession().fireAllRules();
- </text>
+          <text>KieSessionTools.fired(drools,&quot;customer-login-parameter-check&quot;,bool1,bool,customer);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;step3&quot;);</text>
@@ -172,6 +166,9 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
         <type>java.util.Arrays</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.example_demo.model.KieSessionTools</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
