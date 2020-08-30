@@ -99,6 +99,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">10</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
