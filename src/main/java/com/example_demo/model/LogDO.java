@@ -6,12 +6,23 @@ package com.example_demo.model;
 
 public class LogDO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public LogDO() {
-    }
+	private java.lang.String msg;
 
+	public LogDO() {
+	}
 
+	public java.lang.String getMsg() {
+		return this.msg;
+	}
 
+	public void setMsg(java.lang.String msg) {
+		this.msg = msg;
+	}
+
+	public LogDO(java.lang.String msg) {
+		this.msg = msg;
+	}
 
 }
