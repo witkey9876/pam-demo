@@ -19,8 +19,14 @@ public class CustomerInfoDO implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Effective end time")
 	private java.time.LocalDateTime effectiveEndTime;
 
-	@org.kie.api.definition.type.Label(value = "customerID")
+	@org.kie.api.definition.type.Label("customerID")
 	private java.lang.Long customerId;
+
+	@org.kie.api.definition.type.Label(value = "Create Time")
+	private java.time.LocalDateTime createTime;
+
+	@org.kie.api.definition.type.Label(value = "Update Time")
+	private java.time.LocalDateTime updateTime;
 
 	public CustomerInfoDO() {
 	}
@@ -73,16 +79,36 @@ public class CustomerInfoDO implements java.io.Serializable {
 		this.customerId = customerId;
 	}
 
+	public java.time.LocalDateTime getCreateTime() {
+		return this.createTime;
+	}
+
+	public void setCreateTime(java.time.LocalDateTime createTime) {
+		this.createTime = createTime;
+	}
+
+	public java.time.LocalDateTime getUpdateTime() {
+		return this.updateTime;
+	}
+
+	public void setUpdateTime(java.time.LocalDateTime updateTime) {
+		this.updateTime = updateTime;
+	}
+
 	public CustomerInfoDO(java.lang.String idNumber, java.lang.String idType,
 			java.lang.Boolean validate,
 			java.time.LocalDateTime effectiveStartTime,
-			java.time.LocalDateTime effectiveEndTime, java.lang.Long customerId) {
+			java.time.LocalDateTime effectiveEndTime,
+			java.lang.Long customerId, java.time.LocalDateTime createTime,
+			java.time.LocalDateTime updateTime) {
 		this.idNumber = idNumber;
 		this.idType = idType;
 		this.validate = validate;
 		this.effectiveStartTime = effectiveStartTime;
 		this.effectiveEndTime = effectiveEndTime;
 		this.customerId = customerId;
+		this.createTime = createTime;
+		this.updateTime = updateTime;
 	}
 
 }
