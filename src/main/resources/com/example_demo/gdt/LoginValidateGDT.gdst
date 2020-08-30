@@ -112,27 +112,6 @@
     </Pattern52>
   </conditionPatterns>
   <actionCols>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>InsertAccountFact</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>customer.getAccountList().forEach((t)-&gt;{
-           drools.insert(t);
-        });</text>
-        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>InsertAccountFact</header>
-          <varName></varName>
-          <fieldType>Boolean</fieldType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
     <set-field-col52>
       <typedDefaultValue>
         <valueString></valueString>
@@ -232,12 +211,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>&quot;error&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -268,12 +241,6 @@
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
