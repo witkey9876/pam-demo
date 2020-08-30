@@ -37,9 +37,6 @@
             <ExpressionElement>
               <step>BigDecimal</step>
             </ExpressionElement>
-            <ExpressionElement>
-              <step>scale</step>
-            </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
             <name>1|1</name>
@@ -49,19 +46,16 @@
             <name>1|1</name>
             <className>java.math.BigDecimal</className>
           </factIdentifier>
-          <className>int</className>
+          <className>java.math.BigDecimal</className>
           <factAlias>BigDecimal</factAlias>
-          <expressionAlias>scale</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <expressionAlias>expression &lt;/&gt;</expressionAlias>
+          <factMappingValueType>EXPRESSION</factMappingValueType>
           <columnWidth>274.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
               <step>BigDecimal</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>scale</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
@@ -72,10 +66,10 @@
             <name>1|1</name>
             <className>java.math.BigDecimal</className>
           </factIdentifier>
-          <className>int</className>
+          <className>java.math.BigDecimal</className>
           <factAlias>BigDecimal</factAlias>
-          <expressionAlias>scale</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <expressionAlias>expression &lt;/&gt;</expressionAlias>
+          <factMappingValueType>EXPRESSION</factMappingValueType>
           <columnWidth>274.0</columnWidth>
         </FactMapping>
       </factMappings>
@@ -113,7 +107,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
+            <rawValue class="string"># 10</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -124,7 +118,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">20</rawValue>
+            <rawValue class="string"># 20</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
