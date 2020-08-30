@@ -89,7 +89,7 @@
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>ActionResultDO bool = new ActionResultDO();bool.setStr(&quot;abcd&quot;);
-insert(Arrays.asList(bool,customer));
+insert(bool);insert(customer);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus();
 
 
@@ -100,12 +100,12 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>ActionResultDO bool1 = new ActionResultDO();bool1.setStr(&quot;abcd&quot;);
-insert(Arrays.asList(bool1,customer));
+insert(bool1);insert(customer);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>insert(Arrays.asList(bool1,bool,log));
+          <text>insert(bool1);insert(bool);insert(customer);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
