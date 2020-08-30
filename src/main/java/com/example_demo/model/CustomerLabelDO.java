@@ -6,12 +6,70 @@ package com.example_demo.model;
 
 public class CustomerLabelDO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CustomerLabelDO() {
-    }
+	@org.kie.api.definition.type.Label(value = "Label ID")
+	private java.lang.String labelId;
+	@org.kie.api.definition.type.Label(value = "Label Name")
+	private java.lang.String labelName;
+	@org.kie.api.definition.type.Label(value = "Label Group")
+	private java.lang.String labelGroup;
+	@org.kie.api.definition.type.Label(value = "customerID")
+	private java.lang.String customerId;
+	@org.kie.api.definition.type.Label(value = "System Label")
+	private java.lang.Boolean systemLabel;
 
+	public CustomerLabelDO() {
+	}
 
+	public java.lang.String getLabelId() {
+		return this.labelId;
+	}
 
+	public void setLabelId(java.lang.String labelId) {
+		this.labelId = labelId;
+	}
+
+	public java.lang.String getLabelName() {
+		return this.labelName;
+	}
+
+	public void setLabelName(java.lang.String labelName) {
+		this.labelName = labelName;
+	}
+
+	public java.lang.String getLabelGroup() {
+		return this.labelGroup;
+	}
+
+	public void setLabelGroup(java.lang.String labelGroup) {
+		this.labelGroup = labelGroup;
+	}
+
+	public java.lang.String getCustomerId() {
+		return this.customerId;
+	}
+
+	public void setCustomerId(java.lang.String customerId) {
+		this.customerId = customerId;
+	}
+
+	public java.lang.Boolean getSystemLabel() {
+		return this.systemLabel;
+	}
+
+	public void setSystemLabel(java.lang.Boolean systemLabel) {
+		this.systemLabel = systemLabel;
+	}
+
+	public CustomerLabelDO(java.lang.String labelId,
+			java.lang.String labelName, java.lang.String labelGroup,
+			java.lang.String customerId, java.lang.Boolean systemLabel) {
+		this.labelId = labelId;
+		this.labelName = labelName;
+		this.labelGroup = labelGroup;
+		this.customerId = customerId;
+		this.systemLabel = systemLabel;
+	}
 
 }
