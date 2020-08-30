@@ -48,11 +48,11 @@
         <condition-column52>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Login Account</header>
+          <header>Account</header>
           <constraintValueType>1</constraintValueType>
           <factField>loginAccount</factField>
           <fieldType>String</fieldType>
-          <operator>== null</operator>
+          <operator>!= null</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -188,6 +188,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -234,6 +235,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -326,8 +328,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
