@@ -147,7 +147,7 @@
               <name>1598765166905</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">row2</rawValue>
+            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -262,7 +262,7 @@
               <name>1598765166905</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">row1</rawValue>
+            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
