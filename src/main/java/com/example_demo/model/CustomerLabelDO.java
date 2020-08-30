@@ -8,16 +8,19 @@ public class CustomerLabelDO implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Label ID")
+	@org.kie.api.definition.type.Label("Label ID")
 	private java.lang.String labelId;
-	@org.kie.api.definition.type.Label(value = "Label Name")
+	@org.kie.api.definition.type.Label("Label Name")
 	private java.lang.String labelName;
-	@org.kie.api.definition.type.Label(value = "Label Group")
+	@org.kie.api.definition.type.Label("Label Group")
 	private java.lang.String labelGroup;
-	@org.kie.api.definition.type.Label(value = "customerID")
+	@org.kie.api.definition.type.Label("customerID")
 	private java.lang.String customerId;
-	@org.kie.api.definition.type.Label(value = "System Label")
+	@org.kie.api.definition.type.Label("System Label")
 	private java.lang.Boolean systemLabel;
+
+	@org.kie.api.definition.type.Label(value = "Enabled")
+	private java.lang.Boolean enabled;
 
 	public CustomerLabelDO() {
 	}
@@ -62,14 +65,24 @@ public class CustomerLabelDO implements java.io.Serializable {
 		this.systemLabel = systemLabel;
 	}
 
+	public java.lang.Boolean getEnabled() {
+		return this.enabled;
+	}
+
+	public void setEnabled(java.lang.Boolean enabled) {
+		this.enabled = enabled;
+	}
+
 	public CustomerLabelDO(java.lang.String labelId,
 			java.lang.String labelName, java.lang.String labelGroup,
-			java.lang.String customerId, java.lang.Boolean systemLabel) {
+			java.lang.String customerId, java.lang.Boolean systemLabel,
+			java.lang.Boolean enabled) {
 		this.labelId = labelId;
 		this.labelName = labelName;
 		this.labelGroup = labelGroup;
 		this.customerId = customerId;
 		this.systemLabel = systemLabel;
+		this.enabled = enabled;
 	}
 
 }
