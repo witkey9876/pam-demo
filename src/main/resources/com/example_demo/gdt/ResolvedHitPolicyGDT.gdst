@@ -30,10 +30,15 @@
       <isNegated>false</isNegated>
       <conditions>
         <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>NUMERIC_BIGDECIMAL</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>204</width>
           <header>Annual Income</header>
-          <constraintValueType>3</constraintValueType>
+          <constraintValueType>1</constraintValueType>
           <factField>annualIncome</factField>
           <fieldType>BigDecimal</fieldType>
           <operator></operator>
@@ -158,7 +163,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;= 10</valueString>
+        <valueString>&lt; 10</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
