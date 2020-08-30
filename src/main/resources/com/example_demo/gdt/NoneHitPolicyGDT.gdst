@@ -33,7 +33,7 @@
           <hideColumn>false</hideColumn>
           <width>204</width>
           <header>Annual Income</header>
-          <constraintValueType>3</constraintValueType>
+          <constraintValueType>1</constraintValueType>
           <factField>annualIncome</factField>
           <fieldType>BigDecimal</fieldType>
           <operator></operator>
