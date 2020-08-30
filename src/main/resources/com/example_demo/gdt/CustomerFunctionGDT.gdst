@@ -25,28 +25,6 @@
   </attributeCols>
   <conditionPatterns>
     <Pattern52>
-      <factType>AtomicBoolean</factType>
-      <boundName>bool</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
-          <width>179</width>
-          <header>Bool</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>this</factField>
-          <fieldType>AtomicBoolean</fieldType>
-          <operator></operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-      <entryPointName></entryPointName>
-    </Pattern52>
-    <Pattern52>
       <factType>CustomerDO</factType>
       <boundName>customer</boundName>
       <isNegated>false</isNegated>
@@ -84,33 +62,30 @@
       </window>
       <entryPointName></entryPointName>
     </Pattern52>
+    <Pattern52>
+      <factType>ActionResultDO</factType>
+      <boundName>art</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>179</width>
+          <header>Bool</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>this</factField>
+          <fieldType>AtomicBoolean</fieldType>
+          <operator></operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
   </conditionPatterns>
   <actionCols>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>True/False</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>bool.set(@{true/false})</text>
-        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
-        <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
-          <variableName>customer</variableName>
-        </org.drools.workbench.models.datamodel.rule.ActionRetractFact>
-        <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
-          <variableName>bool</variableName>
-        </org.drools.workbench.models.datamodel.rule.ActionRetractFact>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>True/False</header>
-          <varName>true/false</varName>
-          <fieldType>Object</fieldType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
@@ -130,6 +105,20 @@
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>BoolResult</header>
+      <boundName>art</boundName>
+      <factField>boolResult</factField>
+      <type>Boolean</type>
+      <update>false</update>
+    </set-field-col52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
@@ -166,6 +155,9 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>java.util.concurrent.atomic.AtomicBoolean</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.example_demo.model.ActionResultDO</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.example_demo.gdt</packageName>
@@ -190,7 +182,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>false</valueString>
+        <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -207,8 +199,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -253,8 +246,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -299,8 +293,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -344,8 +339,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
