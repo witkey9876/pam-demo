@@ -33,39 +33,27 @@
       </window>
       <entryPointName></entryPointName>
     </Pattern52>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>CustomerLabelDO</header>
-      <constraintValueType>1</constraintValueType>
-      <parameters/>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.CompositeFactPattern>
-          <type>exists</type>
-          <patterns>
-            <org.drools.workbench.models.datamodel.rule.FactPattern>
-              <factType>CustomerLabelDO</factType>
-              <boundName>labelDO</boundName>
-              <isNegated>false</isNegated>
-              <window>
-                <parameters/>
-              </window>
-            </org.drools.workbench.models.datamodel.rule.FactPattern>
-          </patterns>
-        </org.drools.workbench.models.datamodel.rule.CompositeFactPattern>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+    <Pattern52>
+      <factType>CustomerLabelDO</factType>
+      <boundName>labelDO</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>CustomerLabelDO</header>
-          <constraintValueType>1</constraintValueType>
-          <fieldType>Boolean</fieldType>
+          <width>243</width>
+          <header>CustomerLabel</header>
+          <constraintValueType>5</constraintValueType>
+          <factField></factField>
+          <fieldType></fieldType>
+          <operator>--- please choose ---</operator>
           <parameters/>
-          <varName></varName>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
   </conditionPatterns>
   <actionCols>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -153,9 +141,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <valueString>true</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
