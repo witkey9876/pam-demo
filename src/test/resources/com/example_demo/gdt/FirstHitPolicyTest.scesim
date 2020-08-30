@@ -99,7 +99,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">&quot;abd&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
