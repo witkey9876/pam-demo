@@ -94,7 +94,7 @@
           </factIdentifier>
           <className>com.example_demo.model.LogDO</className>
           <factAlias>LogDO</factAlias>
-          <expressionAlias>this != null</expressionAlias>
+          <expressionAlias>this</expressionAlias>
           <factMappingValueType>EXPRESSION</factMappingValueType>
           <columnWidth>137.0</columnWidth>
         </FactMapping>
@@ -189,7 +189,7 @@
               <name>1598787762318</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string"># &quot;&quot;</rawValue>
+            <rawValue class="string"># this != null</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
