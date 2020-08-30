@@ -160,7 +160,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>OrderHitPolicy</valueString>
+        <valueString>UniqueHitPolicy</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -194,7 +194,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>OrderHitPolicy</valueString>
+        <valueString>UniqueHitPolicy</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -228,7 +228,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>OrderHitPolicy</valueString>
+        <valueString>UniqueHitPolicy</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
