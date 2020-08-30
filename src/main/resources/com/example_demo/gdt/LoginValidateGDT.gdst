@@ -108,12 +108,6 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).s
           <text>insert(bool1);insert(bool);insert(customer);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
-        <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
-          <variableName>customer</variableName>
-        </org.drools.workbench.models.datamodel.rule.ActionRetractFact>
-        <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
-          <variableName>log</variableName>
-        </org.drools.workbench.models.datamodel.rule.ActionRetractFact>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;fired&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
