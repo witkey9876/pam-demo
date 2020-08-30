@@ -58,7 +58,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>222</width>
+          <width>224</width>
           <header>BoolResult</header>
           <constraintValueType>1</constraintValueType>
           <factField>boolResult</factField>
