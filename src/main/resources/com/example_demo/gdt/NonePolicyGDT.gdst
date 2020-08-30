@@ -47,6 +47,12 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.example_demo.model.CustomerBindAccountDO</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.example_demo.model.CustomerInfoDO</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.example_demo.model.CustomerLabelDO</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.example_demo.gdt</packageName>
