@@ -6,12 +6,71 @@ package com.example_demo.model;
 
 public class CustomerInfoDO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CustomerInfoDO() {
-    }
+	@org.kie.api.definition.type.Label(value = "Id Number")
+	private java.lang.String idNumber;
+	@org.kie.api.definition.type.Label(value = "Id Type")
+	private java.lang.String idType;
+	@org.kie.api.definition.type.Label(value = "Validate")
+	private java.lang.Boolean validate;
+	@org.kie.api.definition.type.Label(value = "Effective start time")
+	private java.time.LocalDateTime effectiveStartTime;
+	@org.kie.api.definition.type.Label(value = "Effective end time")
+	private java.time.LocalDateTime effectiveEndTime;
 
+	public CustomerInfoDO() {
+	}
 
+	public java.lang.String getIdNumber() {
+		return this.idNumber;
+	}
 
+	public void setIdNumber(java.lang.String idNumber) {
+		this.idNumber = idNumber;
+	}
+
+	public java.lang.String getIdType() {
+		return this.idType;
+	}
+
+	public void setIdType(java.lang.String idType) {
+		this.idType = idType;
+	}
+
+	public java.lang.Boolean getValidate() {
+		return this.validate;
+	}
+
+	public void setValidate(java.lang.Boolean validate) {
+		this.validate = validate;
+	}
+
+	public java.time.LocalDateTime getEffectiveStartTime() {
+		return this.effectiveStartTime;
+	}
+
+	public void setEffectiveStartTime(java.time.LocalDateTime effectiveStartTime) {
+		this.effectiveStartTime = effectiveStartTime;
+	}
+
+	public java.time.LocalDateTime getEffectiveEndTime() {
+		return this.effectiveEndTime;
+	}
+
+	public void setEffectiveEndTime(java.time.LocalDateTime effectiveEndTime) {
+		this.effectiveEndTime = effectiveEndTime;
+	}
+
+	public CustomerInfoDO(java.lang.String idNumber, java.lang.String idType,
+			java.lang.Boolean validate,
+			java.time.LocalDateTime effectiveStartTime,
+			java.time.LocalDateTime effectiveEndTime) {
+		this.idNumber = idNumber;
+		this.idType = idType;
+		this.validate = validate;
+		this.effectiveStartTime = effectiveStartTime;
+		this.effectiveEndTime = effectiveEndTime;
+	}
 
 }
