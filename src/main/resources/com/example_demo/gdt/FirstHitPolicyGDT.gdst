@@ -87,7 +87,7 @@
           <variable>log</variable>
         </org.drools.workbench.models.datamodel.rule.ActionSetField>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>insert(infoDO); insert(log); getKieRuntime().getAgenda().getAgendaGroup(&quot;NoneHitPolicy&quot;).setFocus();</text>
+          <text>/**insert(infoDO); insert(log); getKieRuntime().getAgenda().getAgendaGroup(&quot;NoneHitPolicy&quot;).setFocus();**/</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
