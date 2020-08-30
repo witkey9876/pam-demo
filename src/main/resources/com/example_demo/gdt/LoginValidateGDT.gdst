@@ -70,6 +70,17 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Customer</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>this</factField>
+          <fieldType>CustomerDO</fieldType>
+          <operator>!= null</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
       </conditions>
       <window>
         <parameters/>
@@ -112,6 +123,41 @@
     </Pattern52>
   </conditionPatterns>
   <actionCols>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>FireOtherDecisionTable</header>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>AtomicBoolean bool = new AtomicBoolean();
+insert(Arrays.asList(customer,bool));
+getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus();
+
+
+</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>AtomicBoolean bool1 = new AtomicBoolean();
+insert(Arrays.asList(customer,bool));
+getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
+</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>
+insert(Arrays.asList(customer,bool,bool1));
+getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login&quot;).setFocus();</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>FireOtherDecisionTable</header>
+          <varName></varName>
+          <fieldType>Boolean</fieldType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
     <set-field-col52>
       <typedDefaultValue>
         <valueString></valueString>
@@ -165,6 +211,9 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.example_demo.model.LogDO</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>java.util.concurrent.atomic.AtomicBoolean</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.example_demo.gdt</packageName>
@@ -211,6 +260,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>&quot;error&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -244,7 +305,19 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
