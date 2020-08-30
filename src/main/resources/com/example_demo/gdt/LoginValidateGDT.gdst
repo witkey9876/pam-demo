@@ -91,7 +91,8 @@
           <text>ActionResultDO bool = new ActionResultDO();bool.setStr(&quot;abcd&quot;);
 insert(bool);insert(customer);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus();
-
+ drools.getKieRuntime().getKieBase().newKieSession().fireAllRules();
+ 
 
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
@@ -102,14 +103,16 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus
           <text>ActionResultDO bool1 = new ActionResultDO();bool1.setStr(&quot;abcd&quot;);
 insert(bool1);insert(customer);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
-</text>
+drools.getKieRuntime().getKieBase().newKieSession().fireAllRules();
+ </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;step2&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>insert(log);insert(bool1);insert(bool);
-getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); </text>
+getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); drools.getKieRuntime().getKieBase().newKieSession().fireAllRules();
+ </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;step3&quot;);</text>
