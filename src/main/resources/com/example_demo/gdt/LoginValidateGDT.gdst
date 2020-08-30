@@ -89,8 +89,7 @@
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>AtomicBoolean bool = new AtomicBoolean(false);
-insert(customer);
-insert(bool);
+insert(customer);insert(bool);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus();
 
 
@@ -98,13 +97,12 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>AtomicBoolean bool1 = new AtomicBoolean(false);
- insert(customer);
-insert(bool1);
+insert(customer);insert(bool1);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>insert(bool); insert(bool);insert(log);
+          <text>insert(bool1);insert(bool);insert(log);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus();</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
@@ -117,27 +115,13 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>176</width>
+          <width>100</width>
           <header>FireOtherDecisionTable</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-    <set-field-col52>
-      <typedDefaultValue>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>100</width>
-      <header>Msg</header>
-      <boundName>log</boundName>
-      <factField>msg</factField>
-      <type>String</type>
-      <update>false</update>
-    </set-field-col52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
@@ -180,12 +164,6 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
       <org.kie.soup.project.datamodel.imports.Import>
         <type>java.util.concurrent.atomic.AtomicBoolean</type>
       </org.kie.soup.project.datamodel.imports.Import>
-      <org.kie.soup.project.datamodel.imports.Import>
-        <type>java.util.ArrayList</type>
-      </org.kie.soup.project.datamodel.imports.Import>
-      <org.kie.soup.project.datamodel.imports.Import>
-        <type>java.util.Arrays</type>
-      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.example_demo.gdt</packageName>
@@ -227,11 +205,6 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -266,11 +239,6 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
         <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>error</valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
