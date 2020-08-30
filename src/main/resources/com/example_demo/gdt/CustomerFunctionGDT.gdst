@@ -162,7 +162,7 @@
   </imports>
   <packageName>com.example_demo.gdt</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
-  <hitPolicy>FIRST_HIT</hitPolicy>
+  <hitPolicy>NONE</hitPolicy>
   <data>
     <list>
       <value>
