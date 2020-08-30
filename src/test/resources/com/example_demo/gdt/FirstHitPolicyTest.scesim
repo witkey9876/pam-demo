@@ -166,6 +166,7 @@
   </background>
   <settings>
     <type>RULE</type>
+    <ruleFlowGroup>FirstHitPolicy</ruleFlowGroup>
     <skipFromBuild>false</skipFromBuild>
     <stateless>false</stateless>
   </settings>
