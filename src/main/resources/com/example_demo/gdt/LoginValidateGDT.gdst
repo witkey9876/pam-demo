@@ -88,22 +88,23 @@
       <header>FireOtherDecisionTable</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>AtomicBoolean bool = new AtomicBoolean();
-insert(Arrays.asList(customer,bool));
+          <text>AtomicBoolean bool = new AtomicBoolean(false);
+insert(customer);
+insert(bool);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus();
 
 
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>AtomicBoolean bool1 = new AtomicBoolean();
-insert(Arrays.asList(customer,bool1));
+          <text>AtomicBoolean bool1 = new AtomicBoolean(false);
+ insert(customer);
+insert(bool1);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>
-insert(Arrays.asList(bool,bool1,log));
+          <text>insert(bool); insert(bool);insert(log);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus();</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
