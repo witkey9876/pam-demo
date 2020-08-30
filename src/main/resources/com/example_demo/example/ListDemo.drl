@@ -1,0 +1,26 @@
+package com.example_demo.example;
+
+import java.util.*;
+import com.example_demo.model.CustomerDO;
+import com.example_demo.model.CustomerBindAccountDO
+import org.drools.core.spi.*;
+
+function void foreachInsertObject(List<CustomerBindAccountDO> factList,KnowledgeHelper drools){
+    factList.forEach((t)->drools.insert(t));
+}
+
+function boolean pre(CustomerBindAccountDO account,KnowledgeHelper drools){
+   drools.insert(account);
+   drools.getKieRuntime().getAgenda().getAgendaGroup("pre-condition").setFocus();
+   return Objects.isNull(account.getValidation())?Boolean.FALSE:account.getValidation();
+}
+
+rule "Row 1 ListDemo"
+    dialect "mvel"
+    when
+        customer: CustomerDO(accountList != null)
+        account: CustomerBindAccountDO(this != null)
+    then
+        foreachInsertObject(customer.getAccountList(),drools);
+        pre(account,drools);
+end
