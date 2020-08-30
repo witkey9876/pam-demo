@@ -192,6 +192,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;abcd&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
