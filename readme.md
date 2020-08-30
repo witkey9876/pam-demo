@@ -1,7 +1,7 @@
-Repository Init Content
+redhat RHPAM
 =======================
 
-## 1. redhat RHPAM 决策表 Hit Policy
+## 1.决策表 Hit Policy
 ###### 1. None
 ```
 This is the normal hit mode. Old decision tables will use this by default, 
@@ -30,3 +30,23 @@ First hit fires only one row, the one that is satisfied first from top to bottom
 Multiple rows can fire and Verification does not report about conflicts between 
 the rows since they are expected to happen.
 ```
+###### Hit Policy Example
+```
+FirstHitPolicyGDT
+FirstHitPolicyTest
+
+NoneHitPolicyGDT
+NoneHitPolicyTest
+
+OrdertHitPolicyGDT
+OrdertHitPolicyTest
+
+ResolvedHitPolicyGDT
+ResolvedHitPolicyTest
+
+UniqueHitPolicyGDT
+UniqueHitPolicyTest
+
+```
+
+
