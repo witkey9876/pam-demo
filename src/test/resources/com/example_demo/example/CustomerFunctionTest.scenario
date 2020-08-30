@@ -17,11 +17,6 @@
           <value>1</value>
           <nature>4</nature>
         </field-data>
-        <field-data>
-          <name>loginAccount</name>
-          <value>redhat</value>
-          <nature>4</nature>
-        </field-data>
       </fieldData>
       <name>customer</name>
       <isModify>false</isModify>
@@ -30,7 +25,7 @@
       <name>customer-status</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>40</executionTimeResult>
+      <executionTimeResult>19</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -49,7 +44,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-30 13:36:51.99 UTC</lastRunResult>
+  <lastRunResult>2020-08-30 13:38:03.716 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.example_demo.example</packageName>
