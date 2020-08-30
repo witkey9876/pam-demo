@@ -111,6 +111,9 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
         <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
           <variableName>log</variableName>
         </org.drools.workbench.models.datamodel.rule.ActionRetractFact>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>System.out.println(&quot;fired&quot;)</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
