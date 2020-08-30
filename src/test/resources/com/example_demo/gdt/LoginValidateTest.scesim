@@ -189,6 +189,7 @@
               <name>1598787762318</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string"># new LogDO()</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
