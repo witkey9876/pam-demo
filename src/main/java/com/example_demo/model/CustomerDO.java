@@ -6,12 +6,70 @@ package com.example_demo.model;
 
 public class CustomerDO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CustomerDO() {
-    }
+	@org.kie.api.definition.type.Label(value = "Customer ID")
+	private java.lang.Long customerId;
+	@org.kie.api.definition.type.Label(value = "Customer Name")
+	private java.lang.String customerName;
+	@org.kie.api.definition.type.Label(value = "Customer Type")
+	private java.lang.Integer customerType;
+	@org.kie.api.definition.type.Label(value = "Create Time")
+	private java.time.LocalDateTime createTime;
+	@org.kie.api.definition.type.Label(value = "Update Time")
+	private java.time.LocalDateTime updateTime;
 
+	public CustomerDO() {
+	}
 
+	public java.lang.Long getCustomerId() {
+		return this.customerId;
+	}
 
+	public void setCustomerId(java.lang.Long customerId) {
+		this.customerId = customerId;
+	}
+
+	public java.lang.String getCustomerName() {
+		return this.customerName;
+	}
+
+	public void setCustomerName(java.lang.String customerName) {
+		this.customerName = customerName;
+	}
+
+	public java.lang.Integer getCustomerType() {
+		return this.customerType;
+	}
+
+	public void setCustomerType(java.lang.Integer customerType) {
+		this.customerType = customerType;
+	}
+
+	public java.time.LocalDateTime getCreateTime() {
+		return this.createTime;
+	}
+
+	public void setCreateTime(java.time.LocalDateTime createTime) {
+		this.createTime = createTime;
+	}
+
+	public java.time.LocalDateTime getUpdateTime() {
+		return this.updateTime;
+	}
+
+	public void setUpdateTime(java.time.LocalDateTime updateTime) {
+		this.updateTime = updateTime;
+	}
+
+	public CustomerDO(java.lang.Long customerId, java.lang.String customerName,
+			java.lang.Integer customerType, java.time.LocalDateTime createTime,
+			java.time.LocalDateTime updateTime) {
+		this.customerId = customerId;
+		this.customerName = customerName;
+		this.customerType = customerType;
+		this.createTime = createTime;
+		this.updateTime = updateTime;
+	}
 
 }
