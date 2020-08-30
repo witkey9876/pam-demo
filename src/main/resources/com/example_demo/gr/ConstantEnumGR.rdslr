@@ -1,9 +1,0 @@
-package com.example_demo.gr;
-
-import java.lang.Number;
-
-rule "ConstantEnumGR"
-	dialect "mvel"
-	when
-	then
-end
