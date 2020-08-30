@@ -85,7 +85,7 @@
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1598787496072</name>
+            <name>1598787762318</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
@@ -94,7 +94,7 @@
           </factIdentifier>
           <className>com.example_demo.model.LogDO</className>
           <factAlias>LogDO</factAlias>
-          <expressionAlias>this != null</expressionAlias>
+          <expressionAlias>expression &lt;/&gt;</expressionAlias>
           <factMappingValueType>EXPRESSION</factMappingValueType>
           <columnWidth>137.00000000000003</columnWidth>
         </FactMapping>
@@ -186,10 +186,9 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598787496072</name>
+              <name>1598787762318</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string"># new LogDO()</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -253,7 +252,7 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598787496072</name>
+              <name>1598787762318</name>
               <type>GIVEN</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -320,7 +319,7 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598787496072</name>
+              <name>1598787762318</name>
               <type>GIVEN</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -388,7 +387,7 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598787496072</name>
+              <name>1598787762318</name>
               <type>GIVEN</type>
             </expressionIdentifier>
           </FactMappingValue>
