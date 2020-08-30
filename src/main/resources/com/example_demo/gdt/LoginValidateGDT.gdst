@@ -88,22 +88,22 @@
       <header>FireOtherDecisionTable</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>ActionResultDO bool = new ActionResultDO();bool.setStr(&quot;abcd&quot;);
+          <text>ActionResultDO bool = new ActionResultDO();
 KieSessionTools.fired(drools,&quot;customer-status&quot;,bool,customer);
  
 
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;step1&quot;);</text>
+          <text>System.out.println(&quot;step1&quot;);System.out.println(bool);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>ActionResultDO bool1 = new ActionResultDO();bool1.setStr(&quot;abcd&quot;);
+          <text>ActionResultDO bool1 = new ActionResultDO();
 KieSessionTools.fired(drools,&quot;customer-login-account&quot;,bool1,customer);
  </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;step2&quot;);System.out.println(bool);System.out.println(bool1);</text>
+          <text>System.out.println(&quot;step2&quot;);System.out.println(bool1);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>KieSessionTools.fired(drools,&quot;customer-login-parameter-check&quot;,log,bool,bool1);</text>
