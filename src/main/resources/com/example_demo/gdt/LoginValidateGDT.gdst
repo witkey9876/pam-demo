@@ -63,7 +63,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
           <fieldType>LogDO</fieldType>
-          <operator>!= null</operator>
+          <operator>()</operator>
           <parameters/>
         </condition-column52>
       </conditions>
