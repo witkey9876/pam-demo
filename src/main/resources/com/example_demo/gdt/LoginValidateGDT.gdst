@@ -118,7 +118,7 @@
       <header>InsertAccountFact</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>customer.getAccountList().forEach(t)-&gt;insert(t));</text>
+          <text>customer.getAccountList().forEach(t)-&gt;{drools.insert(t);});</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
