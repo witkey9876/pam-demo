@@ -59,7 +59,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>222</width>
-          <header>Effective account</header>
+          <header>BoolResult</header>
           <constraintValueType>1</constraintValueType>
           <factField>boolResult</factField>
           <fieldType>Boolean</fieldType>
