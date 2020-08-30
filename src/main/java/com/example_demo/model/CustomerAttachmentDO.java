@@ -8,19 +8,19 @@ public class CustomerAttachmentDO implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Attachment ID")
+	@org.kie.api.definition.type.Label("Attachment ID")
 	private java.lang.Long attachmentId;
-	@org.kie.api.definition.type.Label(value = "attachment Type")
+	@org.kie.api.definition.type.Label("attachment Type")
 	private java.lang.Integer attachmentType;
-	@org.kie.api.definition.type.Label(value = "Attachment Source Id")
-	private java.lang.String attachmentSourceId;
-	@org.kie.api.definition.type.Label(value = "Remark")
+	@org.kie.api.definition.type.Label("Attachment Source Id")
+	private Long attachmentSourceId;
+	@org.kie.api.definition.type.Label("Remark")
 	private java.lang.String remark;
-	@org.kie.api.definition.type.Label(value = "Attachment Path")
+	@org.kie.api.definition.type.Label("Attachment Path")
 	private java.lang.String attachmentPath;
-	@org.kie.api.definition.type.Label(value = "Create Time")
+	@org.kie.api.definition.type.Label("Create Time")
 	private java.time.LocalDateTime createTime;
-	@org.kie.api.definition.type.Label(value = "Update Time")
+	@org.kie.api.definition.type.Label("Update Time")
 	private java.time.LocalDateTime updateTime;
 
 	public CustomerAttachmentDO() {
@@ -40,14 +40,6 @@ public class CustomerAttachmentDO implements java.io.Serializable {
 
 	public void setAttachmentType(java.lang.Integer attachmentType) {
 		this.attachmentType = attachmentType;
-	}
-
-	public java.lang.String getAttachmentSourceId() {
-		return this.attachmentSourceId;
-	}
-
-	public void setAttachmentSourceId(java.lang.String attachmentSourceId) {
-		this.attachmentSourceId = attachmentSourceId;
 	}
 
 	public java.lang.String getRemark() {
@@ -82,9 +74,17 @@ public class CustomerAttachmentDO implements java.io.Serializable {
 		this.updateTime = updateTime;
 	}
 
+	public java.lang.Long getAttachmentSourceId() {
+		return this.attachmentSourceId;
+	}
+
+	public void setAttachmentSourceId(java.lang.Long attachmentSourceId) {
+		this.attachmentSourceId = attachmentSourceId;
+	}
+
 	public CustomerAttachmentDO(java.lang.Long attachmentId,
 			java.lang.Integer attachmentType,
-			java.lang.String attachmentSourceId, java.lang.String remark,
+			java.lang.Long attachmentSourceId, java.lang.String remark,
 			java.lang.String attachmentPath,
 			java.time.LocalDateTime createTime,
 			java.time.LocalDateTime updateTime) {
