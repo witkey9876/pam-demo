@@ -96,17 +96,6 @@
               <className>com.example_demo.model.CustomerInfoDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;abd&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|1</name>
-              <className>com.example_demo.model.CustomerInfoDO</className>
-            </factIdentifier>
-            <expressionIdentifier>
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
@@ -121,6 +110,16 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>1|1</name>
+              <className>com.example_demo.model.CustomerInfoDO</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
