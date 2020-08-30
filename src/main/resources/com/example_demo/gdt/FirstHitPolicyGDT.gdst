@@ -70,35 +70,20 @@
     </Pattern52>
   </conditionPatterns>
   <actionCols>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>log</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>msg</field>
-              <value>msg</value>
-              <nature>7</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>log</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>log</header>
-          <varName>msg</varName>
-          <fieldType>String</fieldType>
-          <factType>LogDO</factType>
-          <factField>msg</factField>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <width>100</width>
+      <header>Msg</header>
+      <boundName>log</boundName>
+      <factField>msg</factField>
+      <type>String</type>
+      <update>false</update>
+    </set-field-col52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
