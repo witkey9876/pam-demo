@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>NonePolicyGDT</tableName>
+  <tableName>ResolvedHitPolicyGDT</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>50</width>
@@ -18,7 +18,7 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>188</width>
+          <width>204</width>
           <header>Annual Income</header>
           <constraintValueType>3</constraintValueType>
           <factField>annualIncome</factField>
@@ -85,22 +85,19 @@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.example_demo.model.CustomerLabelDO</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
         <type>com.example_demo.model.CustomerDO</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.example_demo.model.CustomerBindAccountDO</type>
-      </org.kie.soup.project.datamodel.imports.Import>
-      <org.kie.soup.project.datamodel.imports.Import>
         <type>com.example_demo.model.CustomerInfoDO</type>
-      </org.kie.soup.project.datamodel.imports.Import>
-      <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.example_demo.model.CustomerLabelDO</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.example_demo.gdt</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
-  <hitPolicy>NONE</hitPolicy>
+  <hitPolicy>RESOLVED_HIT</hitPolicy>
   <data>
     <list>
       <value>
@@ -115,7 +112,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt; 100</valueString>
+        <valueString>&gt; 10</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -138,7 +135,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;= 100</valueString>
+        <valueString>&lt;= 10</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
