@@ -11,6 +11,11 @@
           <value>1</value>
           <nature>4</nature>
         </field-data>
+        <field-data>
+          <name>loginAccount</name>
+          <value>redhat</value>
+          <nature>4</nature>
+        </field-data>
       </fieldData>
       <name>customer</name>
       <isModify>false</isModify>
@@ -44,7 +49,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-30 17:02:16.5 UTC</lastRunResult>
+  <lastRunResult>2020-08-30 17:04:17.623 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.example_demo.gdt</packageName>
