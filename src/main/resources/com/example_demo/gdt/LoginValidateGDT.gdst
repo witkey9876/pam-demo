@@ -88,7 +88,7 @@
       <header>FireOtherDecisionTable</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>AtomicBoolean bool = new AtomicBoolean(false);
+          <text>ActionResultDO bool = new ActionResultDO();
 insert(Arrays.asList(bool,customer));
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus();
 
@@ -99,7 +99,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus
           <text>System.out.println(&quot;fired 1&quot;);System.out.println(bool);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>AtomicBoolean bool1 = new AtomicBoolean(false);
+          <text>ActionResultDO bool = new ActionResultDO();
 insert(Arrays.asList(bool,customer));
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
 </text>
@@ -168,7 +168,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
         <type>com.example_demo.model.LogDO</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>java.util.concurrent.atomic.AtomicBoolean</type>
+        <type>com.example_demo.model.ActionResultDO</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
         <type>java.util.Arrays</type>
