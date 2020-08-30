@@ -8,19 +8,19 @@ public class CustomerInfoDO implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Customer ID")
+	@org.kie.api.definition.type.Label("Customer ID")
 	private java.lang.Long customerId;
-	@org.kie.api.definition.type.Label(value = "Real Name")
+	@org.kie.api.definition.type.Label("Real Name")
 	private java.lang.String realName;
-	@org.kie.api.definition.type.Label(value = "Birth Date")
+	@org.kie.api.definition.type.Label("Birth Date")
 	private java.time.LocalDateTime birthDate;
-	@org.kie.api.definition.type.Label(value = "Annual income")
+	@org.kie.api.definition.type.Label("Annual Income")
 	private java.math.BigDecimal annualIncome;
-	@org.kie.api.definition.type.Label(value = "Occupation")
+	@org.kie.api.definition.type.Label("Occupation")
 	private java.lang.String occupation;
-	@org.kie.api.definition.type.Label(value = "Create Time")
+	@org.kie.api.definition.type.Label("Create Time")
 	private java.time.LocalDateTime createTime;
-	@org.kie.api.definition.type.Label(value = "Update Time")
+	@org.kie.api.definition.type.Label("Update Time")
 	private java.time.LocalDateTime updateTime;
 
 	public CustomerInfoDO() {
