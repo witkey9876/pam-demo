@@ -10,8 +10,11 @@ public class ActionResultDO implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Boolean Result")
+	@org.kie.api.definition.type.Label("Boolean Result")
 	private java.lang.Boolean boolResult;
+
+	@org.kie.api.definition.type.Label(value = "String")
+	private java.lang.String str;
 
 	public ActionResultDO() {
 	}
@@ -24,12 +27,21 @@ public class ActionResultDO implements java.io.Serializable {
 		this.boolResult = boolResult;
 	}
 
-	public ActionResultDO(java.lang.Boolean boolResult) {
-		this.boolResult = boolResult;
-	}
-
 	@Override
 	public String toString() {
-		return Objects.isNull(boolResult)?" ":boolResult.toString();
+		return Objects.isNull(boolResult) ? " " : boolResult.toString();
+	}
+
+	public java.lang.String getStr() {
+		return this.str;
+	}
+
+	public void setStr(java.lang.String str) {
+		this.str = str;
+	}
+
+	public ActionResultDO(java.lang.Boolean boolResult, java.lang.String str) {
+		this.boolResult = boolResult;
+		this.str = str;
 	}
 }
