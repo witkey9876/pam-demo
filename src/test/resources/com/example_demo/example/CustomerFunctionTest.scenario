@@ -25,7 +25,7 @@
       <name>customer-status</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>19</executionTimeResult>
+      <executionTimeResult>31</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -44,7 +44,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-30 13:38:03.716 UTC</lastRunResult>
+  <lastRunResult>2020-08-30 14:59:43.558 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.example_demo.example</packageName>
