@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f6ce5ff-99e9-4686-90c9-6d86da290fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/UniqueHitPolicyGDT.gdst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/FirstHitPolicyTest.scesim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/NoneHitPolicyTest.scesim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/OrderHitPolicyTest.scesim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/ResolvedHitPolicyTest.scesim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/UniqueHitPolicyTest.scesim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +24,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="147" column="21" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="278">
+                <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -59,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/NoneHitPolicyGDT.gdst" />
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/OrderHitPolicyGDT.gdst" />
         <option value="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/NoneHitPolicyTest.scesim" />
@@ -69,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/UniqueHitPolicyGDT.gdst" />
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResovledHitPolicyGDT.gdst" />
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -100,98 +96,6 @@
             <path>
               <item name="Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="Example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="example_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="example_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="example_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="gdt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="example_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="example_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="example_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="example_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="gdt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +199,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598755215685</updated>
-      <workItem from="1598755220141" duration="5154000" />
+      <workItem from="1598755220141" duration="5888000" />
     </task>
     <task id="LOCAL-00001" summary="add hit policy">
       <created>1598755818237</created>
@@ -308,7 +212,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5154000" />
+    <option name="totallyTimeSpent" value="5888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -400,16 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/check_cond.drl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -489,6 +383,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="147" column="21" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="278">
+            <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
