@@ -28,11 +28,14 @@ public class CustomerIdInfoDO implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Update Time")
 	private java.time.LocalDateTime updateTime;
 
-	@org.kie.api.definition.type.Label(value = "Remark")
+	@org.kie.api.definition.type.Label("Remark")
 	private java.lang.String remark;
 
-	@org.kie.api.definition.type.Label(value = "Info ID")
+	@org.kie.api.definition.type.Label("Info ID")
 	private java.lang.Long infoId;
+
+	@org.kie.api.definition.type.Label(value = "Json Field")
+	private java.lang.String json_field;
 
 	public CustomerIdInfoDO() {
 	}
@@ -117,13 +120,21 @@ public class CustomerIdInfoDO implements java.io.Serializable {
 		this.infoId = infoId;
 	}
 
+	public java.lang.String getJson_field() {
+		return this.json_field;
+	}
+
+	public void setJson_field(java.lang.String json_field) {
+		this.json_field = json_field;
+	}
+
 	public CustomerIdInfoDO(java.lang.String idNumber, java.lang.String idType,
 			java.lang.Boolean validate,
 			java.time.LocalDateTime effectiveStartTime,
 			java.time.LocalDateTime effectiveEndTime,
 			java.lang.Long customerId, java.time.LocalDateTime createTime,
 			java.time.LocalDateTime updateTime, java.lang.String remark,
-			java.lang.Long infoId) {
+			java.lang.Long infoId, java.lang.String json_field) {
 		this.idNumber = idNumber;
 		this.idType = idType;
 		this.validate = validate;
@@ -134,6 +145,7 @@ public class CustomerIdInfoDO implements java.io.Serializable {
 		this.updateTime = updateTime;
 		this.remark = remark;
 		this.infoId = infoId;
+		this.json_field = json_field;
 	}
 
 }
