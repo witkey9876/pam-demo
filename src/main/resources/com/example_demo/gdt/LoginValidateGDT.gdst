@@ -63,7 +63,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
           <fieldType>LogDO</fieldType>
-          <operator>== null</operator>
+          <operator></operator>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -201,7 +201,7 @@ KieSessionTools.fired(drools,&quot;customer-login-parameter-check&quot;,log,bool
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
