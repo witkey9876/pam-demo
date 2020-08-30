@@ -11,7 +11,7 @@ public class CustomerAttachmentDO implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Attachment ID")
 	private java.lang.Long attachmentId;
 	@org.kie.api.definition.type.Label("attachment Type")
-	private String attachmentType;
+	private Integer attachmentType;
 	@org.kie.api.definition.type.Label("Attachment Source Id")
 	private Long attachmentSourceId;
 	@org.kie.api.definition.type.Label("Remark")
@@ -74,17 +74,18 @@ public class CustomerAttachmentDO implements java.io.Serializable {
 		this.attachmentSourceId = attachmentSourceId;
 	}
 
-	public java.lang.String getAttachmentType() {
+	public java.lang.Integer getAttachmentType() {
 		return this.attachmentType;
 	}
 
-	public void setAttachmentType(java.lang.String attachmentType) {
+	public void setAttachmentType(java.lang.Integer attachmentType) {
 		this.attachmentType = attachmentType;
 	}
 
 	public CustomerAttachmentDO(java.lang.Long attachmentId,
-			java.lang.String attachmentType, java.lang.Long attachmentSourceId,
-			java.lang.String remark, java.lang.String attachmentPath,
+			java.lang.Integer attachmentType,
+			java.lang.Long attachmentSourceId, java.lang.String remark,
+			java.lang.String attachmentPath,
 			java.time.LocalDateTime createTime,
 			java.time.LocalDateTime updateTime) {
 		this.attachmentId = attachmentId;
