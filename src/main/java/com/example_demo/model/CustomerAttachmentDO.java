@@ -6,12 +6,95 @@ package com.example_demo.model;
 
 public class CustomerAttachmentDO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CustomerAttachmentDO() {
-    }
+	@org.kie.api.definition.type.Label(value = "Attachment ID")
+	private java.lang.Long attachmentId;
+	@org.kie.api.definition.type.Label(value = "attachment Type")
+	private java.lang.Integer attachmentType;
+	@org.kie.api.definition.type.Label(value = "Attachment Source Id")
+	private java.lang.String attachmentSourceId;
+	@org.kie.api.definition.type.Label(value = "Remark")
+	private java.lang.String remark;
+	@org.kie.api.definition.type.Label(value = "Attachment Path")
+	private java.lang.String attachmentPath;
+	@org.kie.api.definition.type.Label(value = "Create Time")
+	private java.time.LocalDateTime createTime;
+	@org.kie.api.definition.type.Label(value = "Update Time")
+	private java.time.LocalDateTime updateTime;
 
+	public CustomerAttachmentDO() {
+	}
 
+	public java.lang.Long getAttachmentId() {
+		return this.attachmentId;
+	}
 
+	public void setAttachmentId(java.lang.Long attachmentId) {
+		this.attachmentId = attachmentId;
+	}
+
+	public java.lang.Integer getAttachmentType() {
+		return this.attachmentType;
+	}
+
+	public void setAttachmentType(java.lang.Integer attachmentType) {
+		this.attachmentType = attachmentType;
+	}
+
+	public java.lang.String getAttachmentSourceId() {
+		return this.attachmentSourceId;
+	}
+
+	public void setAttachmentSourceId(java.lang.String attachmentSourceId) {
+		this.attachmentSourceId = attachmentSourceId;
+	}
+
+	public java.lang.String getRemark() {
+		return this.remark;
+	}
+
+	public void setRemark(java.lang.String remark) {
+		this.remark = remark;
+	}
+
+	public java.lang.String getAttachmentPath() {
+		return this.attachmentPath;
+	}
+
+	public void setAttachmentPath(java.lang.String attachmentPath) {
+		this.attachmentPath = attachmentPath;
+	}
+
+	public java.time.LocalDateTime getCreateTime() {
+		return this.createTime;
+	}
+
+	public void setCreateTime(java.time.LocalDateTime createTime) {
+		this.createTime = createTime;
+	}
+
+	public java.time.LocalDateTime getUpdateTime() {
+		return this.updateTime;
+	}
+
+	public void setUpdateTime(java.time.LocalDateTime updateTime) {
+		this.updateTime = updateTime;
+	}
+
+	public CustomerAttachmentDO(java.lang.Long attachmentId,
+			java.lang.Integer attachmentType,
+			java.lang.String attachmentSourceId, java.lang.String remark,
+			java.lang.String attachmentPath,
+			java.time.LocalDateTime createTime,
+			java.time.LocalDateTime updateTime) {
+		this.attachmentId = attachmentId;
+		this.attachmentType = attachmentType;
+		this.attachmentSourceId = attachmentSourceId;
+		this.remark = remark;
+		this.attachmentPath = attachmentPath;
+		this.createTime = createTime;
+		this.updateTime = updateTime;
+	}
 
 }
