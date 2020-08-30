@@ -32,7 +32,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>msg</fieldName>
-          <expected>error</expected>
+          <expected>sucess</expected>
           <actualResult>error</actualResult>
           <successResult>false</successResult>
           <explanation>[log] field [msg] was [error] expected [].</explanation>
@@ -44,7 +44,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-30 16:49:31.450 UTC</lastRunResult>
+  <lastRunResult>2020-08-30 17:02:16.5 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.example_demo.gdt</packageName>
