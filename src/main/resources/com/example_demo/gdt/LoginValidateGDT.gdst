@@ -97,7 +97,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>AtomicBoolean bool1 = new AtomicBoolean();
-insert(Arrays.asList(customer,bool));
+insert(Arrays.asList(customer,bool1));
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
