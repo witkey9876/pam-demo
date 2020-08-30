@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f6ce5ff-99e9-4686-90c9-6d86da290fd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/UniqueHitPolicyGDT.gdst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/FirstHitPolicyTest.scesim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/NoneHitPolicyTest.scesim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/OrderHitPolicyTest.scesim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/ResolvedHitPolicyTest.scesim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/UniqueHitPolicyTest.scesim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -24,8 +31,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/example/FirstHitPolicyGDT.gdst">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="147" column="21" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -38,6 +49,8 @@
       <find>policy</find>
       <find>activation-group</find>
       <find>activation</find>
+      <find>police</find>
+      <find>polic</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -47,14 +60,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/UniqueHitPolicyGDT.gdst" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst" />
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/NoneHitPolicyGDT.gdst" />
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/OrderHitPolicyGDT.gdst" />
         <option value="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/NoneHitPolicyTest.scesim" />
         <option value="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/OrderHitPolicyTest.scesim" />
         <option value="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/UniqueHitPolicyTest.scesim" />
         <option value="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/ResolvedHitPolicyTest.scesim" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/UniqueHitPolicyGDT.gdst" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResovledHitPolicyGDT.gdst" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst" />
       </list>
     </option>
   </component>
@@ -168,6 +182,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="example_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="example_demo" type="462c0819:PsiDirectoryNode" />
               <item name="gdt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -185,7 +208,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/example_demo/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -200,10 +223,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/com/example_demo/example" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt" />
+      <recent name="$PROJECT_DIR$/src/test/resources/com/example_demo/example" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example_demo/example" />
+      <recent name="$PROJECT_DIR$/src/test/resources/com/example_demo/gdt" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,7 +295,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598755215685</updated>
-      <workItem from="1598755220141" duration="4632000" />
+      <workItem from="1598755220141" duration="5154000" />
     </task>
     <task id="LOCAL-00001" summary="add hit policy">
       <created>1598755818237</created>
@@ -280,10 +308,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4632000" />
+    <option name="totallyTimeSpent" value="5154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -388,13 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/UniqueHitPolicyGDT.gdst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -450,8 +472,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/example/FirstHitPolicyGDT.gdst">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/example_demo/gdt/FirstHitPolicyTest.scesim">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/FirstHitPolicyGDT.gdst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/UniqueHitPolicyGDT.gdst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="147" column="21" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
