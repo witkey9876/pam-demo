@@ -30,16 +30,13 @@
 //        atomicBoolean.set(true);
 //
 //        AtomicBoolean bool = new AtomicBoolean(false);
-//        insert(customer);
-//        insert(bool);
+//        insert(customer);insert(bool);
 //        getKieRuntime().getAgenda().getAgendaGroup("customer-status").setFocus();
 //
-//        AtomicBoolean bool1 = new AtomicBoolean();
-//        insert(Arrays.asList(customer,bool1));
+//        AtomicBoolean bool1 = new AtomicBoolean(false);
+//        insert(customer);insert(bool1);
 //        getKieRuntime().getAgenda().getAgendaGroup("customer-login-account").setFocus();
 //
-//        insert(bool);
-//        insert(bool1);
-//        insert(log);
+//        insert(bool1);insert(bool);insert(log);
 //        getKieRuntime().getAgenda().getAgendaGroup("customer-login-parameter-check").setFocus();
 //end
