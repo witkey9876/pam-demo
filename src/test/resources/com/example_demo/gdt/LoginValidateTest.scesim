@@ -94,7 +94,7 @@
           </factIdentifier>
           <className>com.example_demo.model.LogDO</className>
           <factAlias>LogDO</factAlias>
-          <expressionAlias>expression &lt;/&gt;</expressionAlias>
+          <expressionAlias>this != null</expressionAlias>
           <factMappingValueType>EXPRESSION</factMappingValueType>
           <columnWidth>137.00000000000003</columnWidth>
         </FactMapping>
