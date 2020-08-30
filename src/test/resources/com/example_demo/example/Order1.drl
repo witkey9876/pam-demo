@@ -21,5 +21,7 @@ rule "Row 1 Order1"
         getKieRuntime().getAgenda().getAgendaGroup("order2-condition").setFocus();
         insert(account);
         logger.info("end fire Order 2");
+        drools.getKieRuntime().getKieBase().newKieSession().fireAllRules();
+        insert("str");
 
 end
