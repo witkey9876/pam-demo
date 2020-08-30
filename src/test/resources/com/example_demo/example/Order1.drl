@@ -1,0 +1,25 @@
+package com.example_demo.example;
+
+import java.util.*;
+import com.example_demo.model.CustomerDO;
+import com.example_demo.model.CustomerBindAccountDO
+import org.drools.core.spi.*
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory;
+
+
+
+rule "Row 1 Order1"
+    dialect "mvel"
+    ruleflow-group "order1-condition"
+    when
+        account: CustomerBindAccountDO()
+    then
+        account.setValidation(true);
+        Logger logger = LoggerFactory.getLogger("order1");
+        logger.info("start fire Order 2");
+        getKieRuntime().getAgenda().getAgendaGroup("order2-condition").setFocus();
+        insert(account);
+        logger.info("end fire Order 2");
+
+end

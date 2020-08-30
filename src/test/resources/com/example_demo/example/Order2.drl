@@ -1,0 +1,21 @@
+package com.example_demo.example;
+
+import java.util.*;
+import com.example_demo.model.CustomerDO;
+import com.example_demo.model.CustomerBindAccountDO
+import org.drools.core.spi.*
+import org.slf4j.LoggerFactory
+import org.slf4j.Logger;
+
+
+
+rule "Row 1 Order2"
+    dialect "mvel"
+    ruleflow-group "order2-condition"
+    when
+        account: CustomerBindAccountDO(validation == true)
+    then
+        Logger logger = LoggerFactory.getLogger("order2");
+        logger.info("fire Order 2");
+
+end
