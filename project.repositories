@@ -3,7 +3,7 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss_ga_plugin</id>
+        <id>jboss_ga</id>
         <url>https://maven.repository.redhat.com/ga/</url>
         <source>SETTINGS</source>
       </metadata>
@@ -11,7 +11,7 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss_ga</id>
+        <id>jboss_ga_plugin</id>
         <url>https://maven.repository.redhat.com/ga/</url>
         <source>SETTINGS</source>
       </metadata>
