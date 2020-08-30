@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f6ce5ff-99e9-4686-90c9-6d86da290fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/example/ListDemo.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/example/PreConditionTest.drl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example_demo/example/ListDemo.drl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/example/ListDemo.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example_demo/example/PreConditionTest.drl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/example/PreConditionTest.drl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,10 +24,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/example/PreConditionTest.drl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-column="2" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/example/ListDemo.drl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="249">
+              <caret line="21" column="10" lean-forward="true" selection-start-column="2" selection-end-line="44" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -65,8 +72,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/ResolvedHitPolicyGDT.gdst" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/example_demo/model/CustomerDO.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/example/PreConditionTest.drl" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/example/test.drl" />
         <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/example/ListDemo.drl" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/example_demo/example/PreConditionTest.drl" />
       </list>
     </option>
   </component>
@@ -253,7 +261,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598755215685</updated>
       <workItem from="1598755220141" duration="6013000" />
-      <workItem from="1598770838972" duration="7466000" />
+      <workItem from="1598770838972" duration="9206000" />
     </task>
     <task id="LOCAL-00001" summary="add hit policy">
       <created>1598755818237</created>
@@ -266,7 +274,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13479000" />
+    <option name="totallyTimeSpent" value="15219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -472,17 +480,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/example/PreConditionTest.drl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/example/test.drl">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/example/ListDemo.drl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="249">
+          <caret line="21" column="10" lean-forward="true" selection-start-column="2" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/example_demo/example/PreConditionTest.drl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-column="2" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>

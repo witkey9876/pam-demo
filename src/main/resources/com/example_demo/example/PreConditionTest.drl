@@ -1,17 +1,17 @@
-package com.example_demo.example;
-
-import java.util.*;
-import com.example_demo.model.CustomerDO;
-import com.example_demo.model.CustomerBindAccountDO
-import org.drools.core.spi.*;
-
-
-
-rule "Row 1 Pre Condition Test"
-    dialect "mvel"
-    ruleflow-group "pre-condition"
-    when
-        account: CustomerBindAccountDO(this != null)
-    then
-        account.setValidation(true);
-end
+//package com.example_demo.example;
+//
+//import java.util.*;
+//import com.example_demo.model.CustomerDO;
+//import com.example_demo.model.CustomerBindAccountDO
+//import org.drools.core.spi.*;
+//
+//
+//
+//rule "Row 1 Pre Condition Test"
+//    dialect "mvel"
+//    ruleflow-group "pre-condition"
+//    when
+//        account: CustomerBindAccountDO(this != null)
+//    then
+//        account.setValidation(true);
+//end

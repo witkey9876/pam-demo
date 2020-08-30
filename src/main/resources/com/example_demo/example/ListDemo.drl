@@ -1,26 +1,45 @@
-package com.example_demo.example;
-
-import java.util.*;
-import com.example_demo.model.CustomerDO;
-import com.example_demo.model.CustomerBindAccountDO
-import org.drools.core.spi.*;
-
-function void foreachInsertObject(List<CustomerBindAccountDO> factList,KnowledgeHelper drools){
-    factList.forEach((t)->drools.insert(t));
-}
-
-function boolean pre(CustomerBindAccountDO account,KnowledgeHelper drools){
-   drools.insert(account);
-   drools.getKieRuntime().getAgenda().getAgendaGroup("pre-condition").setFocus();
-   return Objects.isNull(account.getValidation())?Boolean.FALSE:account.getValidation();
-}
-
-rule "Row 1 ListDemo"
-    dialect "mvel"
-    when
-        customer: CustomerDO(accountList != null)
-        account: CustomerBindAccountDO(this != null)
-    then
-        foreachInsertObject(customer.getAccountList(),drools);
-        pre(account,drools);
-end
+//package com.example_demo.example;
+//
+//import java.util.*;
+//import com.example_demo.model.CustomerDO;
+//import com.example_demo.model.CustomerBindAccountDO
+//import org.drools.core.spi.*;
+//import java.util.concurrent.atomic.AtomicBoolean;
+//import com.example_demo.model.LogDO;
+//
+//function void foreachInsertObject(List<CustomerBindAccountDO> factList,KnowledgeHelper drools){
+//    factList.forEach((t)->drools.insert(t));
+//}
+//
+//function boolean pre(CustomerBindAccountDO account,KnowledgeHelper drools){
+//
+//   drools.getKieRuntime().getAgenda().getAgendaGroup("pre-condition").setFocus();
+//   return Objects.isNull(account.getValidation())?Boolean.FALSE:account.getValidation();
+//}
+//
+//rule "Row 1 ListDemo"
+//    dialect "mvel"
+//    when
+//        customer: CustomerDO(accountList != null)
+//        account: CustomerBindAccountDO(this != null)
+//        atomicBoolean: AtomicBoolean(this != null)
+//        log : LogDO( this != null )
+//    then
+//        foreachInsertObject(customer.getAccountList(),drools);
+//        pre(account,drools);
+//        atomicBoolean.set(true);
+//
+//        AtomicBoolean bool = new AtomicBoolean(false);
+//        insert(customer);
+//        insert(bool);
+//        getKieRuntime().getAgenda().getAgendaGroup("customer-status").setFocus();
+//
+//        AtomicBoolean bool1 = new AtomicBoolean();
+//        insert(Arrays.asList(customer,bool1));
+//        getKieRuntime().getAgenda().getAgendaGroup("customer-login-account").setFocus();
+//
+//        insert(bool);
+//        insert(bool1);
+//        insert(log);
+//        getKieRuntime().getAgenda().getAgendaGroup("customer-login-parameter-check").setFocus();
+//end
