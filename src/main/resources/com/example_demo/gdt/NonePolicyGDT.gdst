@@ -61,15 +61,15 @@
       <header>log</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(@{Annual Income})</text>
+          <text>System.out.println(@{Log Row})</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>153</width>
+          <width>100</width>
           <header>log</header>
-          <varName>Annual Income</varName>
+          <varName>Log Row</varName>
           <fieldType>Object</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
@@ -145,7 +145,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>100</valueString>
+        <valueString>Fire row 1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
