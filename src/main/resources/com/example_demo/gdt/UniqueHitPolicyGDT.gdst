@@ -17,7 +17,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>164</width>
+      <width>161</width>
       <attribute>ruleflow-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
@@ -46,6 +46,28 @@
       </window>
       <entryPointName></entryPointName>
     </Pattern52>
+    <Pattern52>
+      <factType>LogDO</factType>
+      <boundName>log</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Log</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>this</factField>
+          <fieldType>LogDO</fieldType>
+          <operator>!= null</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
   </conditionPatterns>
   <actionCols>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -53,17 +75,27 @@
       <width>-1</width>
       <header>log</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(@{Log Row})</text>
-        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>msg</field>
+              <value>msg</value>
+              <nature>7</nature>
+              <type>String</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+          </fieldValues>
+          <variable>log</variable>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>log</header>
-          <varName>Log Row</varName>
-          <fieldType>Object</fieldType>
+          <varName>msg</varName>
+          <fieldType>String</fieldType>
+          <factType>LogDO</factType>
+          <factField>msg</factField>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -106,6 +138,9 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.example_demo.model.CustomerInfoDO</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.example_demo.model.LogDO</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.example_demo.gdt</packageName>
@@ -135,7 +170,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&quot;Fire Row 1&quot;</valueString>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>row1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -191,7 +232,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&quot;Fire Row 3&quot;</valueString>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>row3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
