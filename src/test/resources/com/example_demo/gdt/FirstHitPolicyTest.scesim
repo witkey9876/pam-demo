@@ -106,7 +106,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;10&quot;</rawValue>
+            <rawValue class="string">10B</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
