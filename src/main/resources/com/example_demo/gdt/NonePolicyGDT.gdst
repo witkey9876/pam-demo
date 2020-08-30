@@ -62,7 +62,7 @@
       <header>log</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;abcd&quot;)</text>
+          <text>System.out.println(@{Annual Income})</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
@@ -70,8 +70,8 @@
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>log</header>
-          <varName></varName>
-          <fieldType>Boolean</fieldType>
+          <varName>Annual Income</varName>
+          <fieldType>Object</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -146,9 +146,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
