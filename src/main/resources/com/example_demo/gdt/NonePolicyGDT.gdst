@@ -44,7 +44,6 @@
           <header>CustomerLabel</header>
           <constraintValueType>5</constraintValueType>
           <factField></factField>
-          <fieldType></fieldType>
           <operator>--- please choose ---</operator>
           <parameters/>
         </condition-column52>
@@ -68,7 +67,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>153</width>
           <header>log</header>
           <varName>Annual Income</varName>
           <fieldType>Object</fieldType>
@@ -146,7 +145,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>100</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
