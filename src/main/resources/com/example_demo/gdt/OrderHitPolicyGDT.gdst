@@ -97,7 +97,7 @@
   </imports>
   <packageName>com.example_demo.gdt</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
-  <hitPolicy>ORDER_HIT</hitPolicy>
+  <hitPolicy>RULE_ORDER</hitPolicy>
   <data>
     <list>
       <value>
