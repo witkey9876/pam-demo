@@ -189,6 +189,7 @@
               <name>1598787496072</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string"># &quot;ll&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
