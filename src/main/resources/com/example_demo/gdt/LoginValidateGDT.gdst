@@ -105,7 +105,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).s
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>insert(bool1);insert(bool);insert(customer);
+          <text>insert(bool1);insert(bool);insert(log);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
