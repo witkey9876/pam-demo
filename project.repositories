@@ -3,9 +3,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/work/dev-tools/tools/maven/repo</url>
-        <source>LOCAL</source>
+        <id>jboss_ga_plugin</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -27,9 +27,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss_ga_plugin</id>
-        <url>https://maven.repository.redhat.com/ga/</url>
-        <source>SETTINGS</source>
+        <id>local</id>
+        <url>/work/dev-tools/tools/maven/repo</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>

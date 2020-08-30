@@ -28,6 +28,12 @@
       <import>
         <type>java.lang.BigDecimal</type>
       </import>
+      <import>
+        <type>java.util.concurrent.atomic.AtomicBoolean</type>
+      </import>
+      <import>
+        <type>java.util.Arrays</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
