@@ -28,6 +28,12 @@ public class CustomerIdInfoDO implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Update Time")
 	private java.time.LocalDateTime updateTime;
 
+	@org.kie.api.definition.type.Label(value = "Remark")
+	private java.lang.String remark;
+
+	@org.kie.api.definition.type.Label(value = "Info ID")
+	private java.lang.Long infoId;
+
 	public CustomerIdInfoDO() {
 	}
 
@@ -95,12 +101,29 @@ public class CustomerIdInfoDO implements java.io.Serializable {
 		this.updateTime = updateTime;
 	}
 
+	public java.lang.String getRemark() {
+		return this.remark;
+	}
+
+	public void setRemark(java.lang.String remark) {
+		this.remark = remark;
+	}
+
+	public java.lang.Long getInfoId() {
+		return this.infoId;
+	}
+
+	public void setInfoId(java.lang.Long infoId) {
+		this.infoId = infoId;
+	}
+
 	public CustomerIdInfoDO(java.lang.String idNumber, java.lang.String idType,
 			java.lang.Boolean validate,
 			java.time.LocalDateTime effectiveStartTime,
 			java.time.LocalDateTime effectiveEndTime,
 			java.lang.Long customerId, java.time.LocalDateTime createTime,
-			java.time.LocalDateTime updateTime) {
+			java.time.LocalDateTime updateTime, java.lang.String remark,
+			java.lang.Long infoId) {
 		this.idNumber = idNumber;
 		this.idType = idType;
 		this.validate = validate;
@@ -109,6 +132,8 @@ public class CustomerIdInfoDO implements java.io.Serializable {
 		this.customerId = customerId;
 		this.createTime = createTime;
 		this.updateTime = updateTime;
+		this.remark = remark;
+		this.infoId = infoId;
 	}
 
 }
