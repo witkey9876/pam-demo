@@ -6,12 +6,93 @@ package com.example_demo.model;
 
 public class CustomerInfoDO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CustomerInfoDO() {
-    }
+	@org.kie.api.definition.type.Label(value = "Info ID")
+	private java.lang.Long infoId;
+	@org.kie.api.definition.type.Label(value = "Customer ID")
+	private java.lang.Long customerId;
+	@org.kie.api.definition.type.Label(value = "Bind Account")
+	private java.lang.String bindAccount;
+	@org.kie.api.definition.type.Label(value = "Bind Account Type")
+	private java.lang.String bindAccountType;
+	@org.kie.api.definition.type.Label(value = "validation")
+	private java.lang.Boolean validation;
+	@org.kie.api.definition.type.Label(value = "Create Time")
+	private java.time.LocalDateTime createTime;
+	@org.kie.api.definition.type.Label(value = "Update Time")
+	private java.time.LocalDateTime updateTime;
 
+	public CustomerInfoDO() {
+	}
 
+	public java.lang.Long getInfoId() {
+		return this.infoId;
+	}
 
+	public void setInfoId(java.lang.Long infoId) {
+		this.infoId = infoId;
+	}
+
+	public java.lang.Long getCustomerId() {
+		return this.customerId;
+	}
+
+	public void setCustomerId(java.lang.Long customerId) {
+		this.customerId = customerId;
+	}
+
+	public java.lang.String getBindAccount() {
+		return this.bindAccount;
+	}
+
+	public void setBindAccount(java.lang.String bindAccount) {
+		this.bindAccount = bindAccount;
+	}
+
+	public java.lang.String getBindAccountType() {
+		return this.bindAccountType;
+	}
+
+	public void setBindAccountType(java.lang.String bindAccountType) {
+		this.bindAccountType = bindAccountType;
+	}
+
+	public java.lang.Boolean getValidation() {
+		return this.validation;
+	}
+
+	public void setValidation(java.lang.Boolean validation) {
+		this.validation = validation;
+	}
+
+	public java.time.LocalDateTime getCreateTime() {
+		return this.createTime;
+	}
+
+	public void setCreateTime(java.time.LocalDateTime createTime) {
+		this.createTime = createTime;
+	}
+
+	public java.time.LocalDateTime getUpdateTime() {
+		return this.updateTime;
+	}
+
+	public void setUpdateTime(java.time.LocalDateTime updateTime) {
+		this.updateTime = updateTime;
+	}
+
+	public CustomerInfoDO(java.lang.Long infoId, java.lang.Long customerId,
+			java.lang.String bindAccount, java.lang.String bindAccountType,
+			java.lang.Boolean validation, java.time.LocalDateTime createTime,
+			java.time.LocalDateTime updateTime) {
+		this.infoId = infoId;
+		this.customerId = customerId;
+		this.bindAccount = bindAccount;
+		this.bindAccountType = bindAccountType;
+		this.validation = validation;
+		this.createTime = createTime;
+		this.updateTime = updateTime;
+	}
 
 }
