@@ -11,6 +11,11 @@
           <value>1</value>
           <nature>4</nature>
         </field-data>
+        <field-data>
+          <name>loginAccount</name>
+          <value>redhat</value>
+          <nature>4</nature>
+        </field-data>
       </fieldData>
       <name>customer</name>
       <isModify>false</isModify>
