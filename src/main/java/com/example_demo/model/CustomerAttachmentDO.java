@@ -11,7 +11,7 @@ public class CustomerAttachmentDO implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Attachment ID")
 	private java.lang.Long attachmentId;
 	@org.kie.api.definition.type.Label("attachment Type")
-	private java.lang.Integer attachmentType;
+	private String attachmentType;
 	@org.kie.api.definition.type.Label("Attachment Source Id")
 	private Long attachmentSourceId;
 	@org.kie.api.definition.type.Label("Remark")
@@ -32,14 +32,6 @@ public class CustomerAttachmentDO implements java.io.Serializable {
 
 	public void setAttachmentId(java.lang.Long attachmentId) {
 		this.attachmentId = attachmentId;
-	}
-
-	public java.lang.Integer getAttachmentType() {
-		return this.attachmentType;
-	}
-
-	public void setAttachmentType(java.lang.Integer attachmentType) {
-		this.attachmentType = attachmentType;
 	}
 
 	public java.lang.String getRemark() {
@@ -82,10 +74,17 @@ public class CustomerAttachmentDO implements java.io.Serializable {
 		this.attachmentSourceId = attachmentSourceId;
 	}
 
+	public java.lang.String getAttachmentType() {
+		return this.attachmentType;
+	}
+
+	public void setAttachmentType(java.lang.String attachmentType) {
+		this.attachmentType = attachmentType;
+	}
+
 	public CustomerAttachmentDO(java.lang.Long attachmentId,
-			java.lang.Integer attachmentType,
-			java.lang.Long attachmentSourceId, java.lang.String remark,
-			java.lang.String attachmentPath,
+			java.lang.String attachmentType, java.lang.Long attachmentSourceId,
+			java.lang.String remark, java.lang.String attachmentPath,
 			java.time.LocalDateTime createTime,
 			java.time.LocalDateTime updateTime) {
 		this.attachmentId = attachmentId;
