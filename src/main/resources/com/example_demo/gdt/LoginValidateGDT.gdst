@@ -31,7 +31,7 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>153</width>
+          <width>257</width>
           <header>Customer</header>
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
@@ -58,7 +58,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>138</width>
+          <width>208</width>
           <header>Log</header>
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
@@ -105,7 +105,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).s
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>insert(Arrays.asList(bool1,bool2,log));
+          <text>insert(Arrays.asList(bool1,bool,log));
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
