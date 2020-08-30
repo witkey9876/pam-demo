@@ -115,7 +115,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>188</width>
           <header>FireOtherDecisionTable</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
