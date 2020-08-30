@@ -99,8 +99,8 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus
           <text>System.out.println(&quot;fired 1&quot;);System.out.println(bool);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>ActionResultDO bool = new ActionResultDO();
-insert(Arrays.asList(bool,customer));
+          <text>ActionResultDO bool1 = new ActionResultDO();
+insert(Arrays.asList(bool1,customer));
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).setFocus();
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
