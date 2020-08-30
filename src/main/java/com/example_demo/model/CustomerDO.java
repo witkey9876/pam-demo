@@ -8,16 +8,28 @@ public class CustomerDO implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Customer ID")
+	@org.kie.api.definition.type.Label("Customer ID")
 	private java.lang.Long customerId;
-	@org.kie.api.definition.type.Label(value = "Customer Name")
+	@org.kie.api.definition.type.Label("Customer Name")
 	private java.lang.String customerName;
-	@org.kie.api.definition.type.Label(value = "Customer Type")
+	@org.kie.api.definition.type.Label("Customer Type")
 	private java.lang.Integer customerType;
-	@org.kie.api.definition.type.Label(value = "Create Time")
+	@org.kie.api.definition.type.Label("Create Time")
 	private java.time.LocalDateTime createTime;
-	@org.kie.api.definition.type.Label(value = "Update Time")
+	@org.kie.api.definition.type.Label("Update Time")
 	private java.time.LocalDateTime updateTime;
+
+	@org.kie.api.definition.type.Label(value = "Login Account")
+	private java.lang.String loginAccount;
+
+	@org.kie.api.definition.type.Label(value = "Login Password")
+	private java.lang.String loginPassword;
+
+	@org.kie.api.definition.type.Label(value = "Enabled")
+	private java.lang.Boolean enabled;
+
+	@org.kie.api.definition.type.Label(value = "Status")
+	private java.lang.Integer status;
 
 	public CustomerDO() {
 	}
@@ -62,14 +74,52 @@ public class CustomerDO implements java.io.Serializable {
 		this.updateTime = updateTime;
 	}
 
+	public java.lang.String getLoginAccount() {
+		return this.loginAccount;
+	}
+
+	public void setLoginAccount(java.lang.String loginAccount) {
+		this.loginAccount = loginAccount;
+	}
+
+	public java.lang.String getLoginPassword() {
+		return this.loginPassword;
+	}
+
+	public void setLoginPassword(java.lang.String loginPassword) {
+		this.loginPassword = loginPassword;
+	}
+
+	public java.lang.Boolean getEnabled() {
+		return this.enabled;
+	}
+
+	public void setEnabled(java.lang.Boolean enabled) {
+		this.enabled = enabled;
+	}
+
+	public java.lang.Integer getStatus() {
+		return this.status;
+	}
+
+	public void setStatus(java.lang.Integer status) {
+		this.status = status;
+	}
+
 	public CustomerDO(java.lang.Long customerId, java.lang.String customerName,
 			java.lang.Integer customerType, java.time.LocalDateTime createTime,
-			java.time.LocalDateTime updateTime) {
+			java.time.LocalDateTime updateTime, java.lang.String loginAccount,
+			java.lang.String loginPassword, java.lang.Boolean enabled,
+			java.lang.Integer status) {
 		this.customerId = customerId;
 		this.customerName = customerName;
 		this.customerType = customerType;
 		this.createTime = createTime;
 		this.updateTime = updateTime;
+		this.loginAccount = loginAccount;
+		this.loginPassword = loginPassword;
+		this.enabled = enabled;
+		this.status = status;
 	}
 
 }
