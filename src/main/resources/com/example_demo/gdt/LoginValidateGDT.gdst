@@ -168,6 +168,9 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
       <org.kie.soup.project.datamodel.imports.Import>
         <type>java.util.ArrayList</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>java.util.Arrays</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.example_demo.gdt</packageName>
