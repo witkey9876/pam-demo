@@ -153,7 +153,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>match empty</valueString>
+        <valueString>match default</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
