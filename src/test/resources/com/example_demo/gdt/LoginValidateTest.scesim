@@ -192,7 +192,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;empty&quot;</rawValue>
+            <rawValue class="string">empty</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -259,7 +259,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;empty&quot;</rawValue>
+            <rawValue class="string">empty</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -327,7 +327,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;empty&quot;</rawValue>
+            <rawValue class="string">empty</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -396,7 +396,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;empty&quot;</rawValue>
+            <rawValue class="string">empty</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
