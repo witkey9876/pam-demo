@@ -58,7 +58,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>138</width>
           <header>Log</header>
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
@@ -116,7 +116,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login&quot;).setFocus(
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>146</width>
           <header>FireOtherDecisionTable</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
@@ -231,7 +231,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login&quot;).setFocus(
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
