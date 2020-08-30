@@ -97,7 +97,7 @@
           </factIdentifier>
           <className>java.lang.String</className>
           <factAlias>LogDO</factAlias>
-          <expressionAlias>msg != null</expressionAlias>
+          <expressionAlias>msg</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>137.0</columnWidth>
         </FactMapping>
@@ -120,7 +120,7 @@
           </factIdentifier>
           <className>java.lang.String</className>
           <factAlias>LogDO</factAlias>
-          <expressionAlias>msg != null</expressionAlias>
+          <expressionAlias>msg</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>137.0</columnWidth>
         </FactMapping>
@@ -192,6 +192,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;empty&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -258,6 +259,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;empty&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -325,6 +327,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;empty&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -393,6 +396,7 @@
               <name>1598785015969</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;empty&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
