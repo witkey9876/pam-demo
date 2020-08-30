@@ -117,13 +117,8 @@
       <width>-1</width>
       <header>InsertAccountFact</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionInsertFact>
-          <fieldValues/>
-          <factType>CustomerBindAccountDO</factType>
-          <isBound>false</isBound>
-        </org.drools.workbench.models.datamodel.rule.ActionInsertFact>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>customer.getAccountList.forEach(t)-&gt;insert(t));</text>
+          <text>customer.getAccountList().forEach(t)-&gt;insert(t));</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
