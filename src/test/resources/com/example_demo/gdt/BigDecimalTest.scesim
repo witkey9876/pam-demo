@@ -107,7 +107,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string"># new java.lang.BigDecimal(&quot;20&quot;)</rawValue>
+            <rawValue class="string"># 10B</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -118,7 +118,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string"># 20</rawValue>
+            <rawValue class="string"># 20B</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
