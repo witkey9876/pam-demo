@@ -96,7 +96,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-status&quot;).setFocus
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;fired 1&quot;);System.out.println(bool);</text>
+          <text>System.out.println(&quot;step1&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>ActionResultDO bool1 = new ActionResultDO();bool1.setStr(&quot;abcd&quot;);
@@ -105,11 +105,14 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).s
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>System.out.println(&quot;step2&quot;);</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>insert(log);insert(bool1);insert(bool);
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;fired&quot;);</text>
+          <text>System.out.println(&quot;step3&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
