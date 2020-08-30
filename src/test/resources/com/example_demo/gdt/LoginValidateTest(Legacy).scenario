@@ -3,9 +3,6 @@
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>LoginValidate</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <fact-data>
       <type>CustomerDO</type>
       <fieldData>
@@ -29,12 +26,21 @@
       <name>log</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>LoginValidate</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <execution-trace>
+      <executionTimeResult>40</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>msg</fieldName>
           <expected>success</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[log] field [msg] was [] expected [success].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -43,6 +49,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2020-08-30 11:55:12.311 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.example_demo.gdt</packageName>
