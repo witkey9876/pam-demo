@@ -6,12 +6,24 @@ package com.example_demo.model;
 
 public class ActionResultDO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ActionResultDO() {
-    }
+	@org.kie.api.definition.type.Label(value = "Boolean Result")
+	private java.lang.Boolean boolResult;
 
+	public ActionResultDO() {
+	}
 
+	public java.lang.Boolean getBoolResult() {
+		return this.boolResult;
+	}
 
+	public void setBoolResult(java.lang.Boolean boolResult) {
+		this.boolResult = boolResult;
+	}
+
+	public ActionResultDO(java.lang.Boolean boolResult) {
+		this.boolResult = boolResult;
+	}
 
 }
