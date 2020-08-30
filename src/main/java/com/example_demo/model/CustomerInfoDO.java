@@ -8,16 +8,19 @@ public class CustomerInfoDO implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Id Number")
+	@org.kie.api.definition.type.Label("Id Number")
 	private java.lang.String idNumber;
-	@org.kie.api.definition.type.Label(value = "Id Type")
+	@org.kie.api.definition.type.Label("Id Type")
 	private java.lang.String idType;
-	@org.kie.api.definition.type.Label(value = "Validate")
+	@org.kie.api.definition.type.Label("Validate")
 	private java.lang.Boolean validate;
-	@org.kie.api.definition.type.Label(value = "Effective start time")
+	@org.kie.api.definition.type.Label("Effective start time")
 	private java.time.LocalDateTime effectiveStartTime;
-	@org.kie.api.definition.type.Label(value = "Effective end time")
+	@org.kie.api.definition.type.Label("Effective end time")
 	private java.time.LocalDateTime effectiveEndTime;
+
+	@org.kie.api.definition.type.Label(value = "customerID")
+	private java.lang.Long customerId;
 
 	public CustomerInfoDO() {
 	}
@@ -62,15 +65,24 @@ public class CustomerInfoDO implements java.io.Serializable {
 		this.effectiveEndTime = effectiveEndTime;
 	}
 
+	public java.lang.Long getCustomerId() {
+		return this.customerId;
+	}
+
+	public void setCustomerId(java.lang.Long customerId) {
+		this.customerId = customerId;
+	}
+
 	public CustomerInfoDO(java.lang.String idNumber, java.lang.String idType,
 			java.lang.Boolean validate,
 			java.time.LocalDateTime effectiveStartTime,
-			java.time.LocalDateTime effectiveEndTime) {
+			java.time.LocalDateTime effectiveEndTime, java.lang.Long customerId) {
 		this.idNumber = idNumber;
 		this.idType = idType;
 		this.validate = validate;
 		this.effectiveStartTime = effectiveStartTime;
 		this.effectiveEndTime = effectiveEndTime;
+		this.customerId = customerId;
 	}
 
 }
