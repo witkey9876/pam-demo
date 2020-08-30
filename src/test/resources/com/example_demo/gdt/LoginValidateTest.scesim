@@ -177,7 +177,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">success1</rawValue>
+            <rawValue class="string">success111</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -412,7 +412,7 @@
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>918.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
