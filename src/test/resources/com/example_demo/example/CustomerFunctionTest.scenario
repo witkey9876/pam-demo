@@ -11,19 +11,36 @@
     </fact-data>
     <fact-data>
       <type>CustomerDO</type>
-      <fieldData/>
+      <fieldData>
+        <field-data>
+          <name>status</name>
+          <value>1</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>loginAccount</name>
+          <value></value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
       <name>customer</name>
       <isModify>false</isModify>
     </fact-data>
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>customer-status</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>40</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>boolResult</fieldName>
           <expected>true</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[art] field [boolResult] was [] expected [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -32,6 +49,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2020-08-30 13:35:39.893 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.example_demo.example</packageName>
