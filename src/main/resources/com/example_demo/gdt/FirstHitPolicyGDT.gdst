@@ -86,6 +86,9 @@
           </fieldValues>
           <variable>log</variable>
         </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>insert(infoDO); getKieRuntime().getAgenda().getAgendaGroup(&quot;NoneHitPolicy&quot;).setFocus();</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
