@@ -31,7 +31,7 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>179</width>
           <header>Bool</header>
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
@@ -58,12 +58,23 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>215</width>
           <header>Status</header>
           <constraintValueType>1</constraintValueType>
           <factField>status</factField>
           <fieldType>Integer</fieldType>
           <operator>!=</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Login Account</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>loginAccount</factField>
+          <fieldType>String</fieldType>
+          <operator>!= null</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -166,6 +177,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -201,6 +218,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -233,6 +256,52 @@
         <valueNumeric class="int">3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>true</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>customer-login-account</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
