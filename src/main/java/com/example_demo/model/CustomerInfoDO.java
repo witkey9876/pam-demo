@@ -6,12 +6,94 @@ package com.example_demo.model;
 
 public class CustomerInfoDO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CustomerInfoDO() {
-    }
+	@org.kie.api.definition.type.Label(value = "Customer ID")
+	private java.lang.Long customerId;
+	@org.kie.api.definition.type.Label(value = "Real Name")
+	private java.lang.String realName;
+	@org.kie.api.definition.type.Label(value = "Birth Date")
+	private java.time.LocalDateTime birthDate;
+	@org.kie.api.definition.type.Label(value = "Annual income")
+	private java.math.BigDecimal annualIncome;
+	@org.kie.api.definition.type.Label(value = "Occupation")
+	private java.lang.String occupation;
+	@org.kie.api.definition.type.Label(value = "Create Time")
+	private java.time.LocalDateTime createTime;
+	@org.kie.api.definition.type.Label(value = "Update Time")
+	private java.time.LocalDateTime updateTime;
 
+	public CustomerInfoDO() {
+	}
 
+	public java.lang.Long getCustomerId() {
+		return this.customerId;
+	}
 
+	public void setCustomerId(java.lang.Long customerId) {
+		this.customerId = customerId;
+	}
+
+	public java.lang.String getRealName() {
+		return this.realName;
+	}
+
+	public void setRealName(java.lang.String realName) {
+		this.realName = realName;
+	}
+
+	public java.time.LocalDateTime getBirthDate() {
+		return this.birthDate;
+	}
+
+	public void setBirthDate(java.time.LocalDateTime birthDate) {
+		this.birthDate = birthDate;
+	}
+
+	public java.math.BigDecimal getAnnualIncome() {
+		return this.annualIncome;
+	}
+
+	public void setAnnualIncome(java.math.BigDecimal annualIncome) {
+		this.annualIncome = annualIncome;
+	}
+
+	public java.lang.String getOccupation() {
+		return this.occupation;
+	}
+
+	public void setOccupation(java.lang.String occupation) {
+		this.occupation = occupation;
+	}
+
+	public java.time.LocalDateTime getCreateTime() {
+		return this.createTime;
+	}
+
+	public void setCreateTime(java.time.LocalDateTime createTime) {
+		this.createTime = createTime;
+	}
+
+	public java.time.LocalDateTime getUpdateTime() {
+		return this.updateTime;
+	}
+
+	public void setUpdateTime(java.time.LocalDateTime updateTime) {
+		this.updateTime = updateTime;
+	}
+
+	public CustomerInfoDO(java.lang.Long customerId, java.lang.String realName,
+			java.time.LocalDateTime birthDate,
+			java.math.BigDecimal annualIncome, java.lang.String occupation,
+			java.time.LocalDateTime createTime,
+			java.time.LocalDateTime updateTime) {
+		this.customerId = customerId;
+		this.realName = realName;
+		this.birthDate = birthDate;
+		this.annualIncome = annualIncome;
+		this.occupation = occupation;
+		this.createTime = createTime;
+		this.updateTime = updateTime;
+	}
 
 }
