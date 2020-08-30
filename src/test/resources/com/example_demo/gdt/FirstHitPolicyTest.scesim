@@ -323,9 +323,6 @@
         <type>com.example_demo.model.CustomerInfoDO</type>
       </Import>
       <Import>
-        <type>java.math.BigDecimal</type>
-      </Import>
-      <Import>
         <type>com.example_demo.model.LogDO</type>
       </Import>
     </imports>
