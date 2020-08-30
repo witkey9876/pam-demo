@@ -186,7 +186,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>= null</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
