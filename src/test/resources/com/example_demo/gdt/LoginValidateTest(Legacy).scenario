@@ -30,7 +30,7 @@
       <name>LoginValidate</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>216</executionTimeResult>
+      <executionTimeResult>62</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -38,9 +38,9 @@
         <expect-field>
           <fieldName>msg</fieldName>
           <expected>success</expected>
-          <actualResult>success</actualResult>
+          <actualResult>error</actualResult>
           <successResult>false</successResult>
-          <explanation>[log] field [msg] was [success] expected [sucess].</explanation>
+          <explanation>[log] field [msg] was [error] expected [success].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -49,7 +49,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-30 17:27:21.298 UTC</lastRunResult>
+  <lastRunResult>2020-08-30 17:27:53.741 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.example_demo.gdt</packageName>
