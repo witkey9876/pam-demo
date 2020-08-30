@@ -103,10 +103,10 @@ KieSessionTools.fired(drools,&quot;customer-login-account&quot;,bool1,customer);
  </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;step2&quot;);</text>
+          <text>System.out.println(&quot;step2&quot;);System.out.println(bool);System.out.println(bool1);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>KieSessionTools.fired(drools,&quot;customer-login-parameter-check&quot;,bool1,bool,customer);</text>
+          <text>KieSessionTools.fired(drools,&quot;customer-login-parameter-check&quot;,log,bool,bool1);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;step3&quot;);</text>
