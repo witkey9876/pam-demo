@@ -60,6 +60,9 @@
             <ExpressionElement>
               <step>LogDO</step>
             </ExpressionElement>
+            <ExpressionElement>
+              <step>msg</step>
+            </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
             <name>1598765235505</name>
@@ -69,10 +72,10 @@
             <name>1598765166905</name>
             <className>com.example_demo.model.LogDO</className>
           </factIdentifier>
-          <className>com.example_demo.model.LogDO</className>
+          <className>java.lang.String</className>
           <factAlias>LogDO</factAlias>
-          <expressionAlias>expression &lt;/&gt;</expressionAlias>
-          <factMappingValueType>EXPRESSION</factMappingValueType>
+          <expressionAlias>this != null</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>182.66666666666666</columnWidth>
         </FactMapping>
         <FactMapping>
@@ -94,7 +97,7 @@
           </factIdentifier>
           <className>java.lang.String</className>
           <factAlias>LogDO</factAlias>
-          <expressionAlias>msg</expressionAlias>
+          <expressionAlias>this != null</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>182.66666666666666</columnWidth>
         </FactMapping>
