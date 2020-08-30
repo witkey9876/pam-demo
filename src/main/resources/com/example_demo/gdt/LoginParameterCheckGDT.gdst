@@ -74,33 +74,6 @@
       </window>
       <entryPointName></entryPointName>
     </Pattern52>
-    <Pattern52>
-      <factType>ActionResultDO</factType>
-      <boundName>bool1</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>186</width>
-          <header>Valid State</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>boolResult</factField>
-          <fieldType>Boolean</fieldType>
-          <operator></operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-      <entryPointName></entryPointName>
-    </Pattern52>
   </conditionPatterns>
   <actionCols>
     <set-field-col52>
@@ -194,11 +167,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>== true</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>success</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -225,11 +193,6 @@
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
