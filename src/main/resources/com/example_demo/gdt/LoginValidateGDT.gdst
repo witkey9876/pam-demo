@@ -201,7 +201,7 @@ KieSessionTools.fired(drools,&quot;customer-login-parameter-check&quot;,log,bool
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
