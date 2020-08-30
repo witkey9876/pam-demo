@@ -117,7 +117,7 @@
       <header>logPrint</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;fired&quot;);System.out.println(&quot;bool&quot;);</text>
+          <text>System.out.println(&quot;fired. rule.....&quot;);System.out.println(&quot;bool&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
