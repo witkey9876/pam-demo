@@ -1,1 +1,2 @@
 'CustomerBindAccountDO.bindAccountType' : ["email","phone"]
+'CustomerDO.status' : [1,2,3,4,5]
