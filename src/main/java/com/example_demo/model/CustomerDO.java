@@ -19,17 +19,20 @@ public class CustomerDO implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Update Time")
 	private java.time.LocalDateTime updateTime;
 
-	@org.kie.api.definition.type.Label(value = "Login Account")
+	@org.kie.api.definition.type.Label("Login Account")
 	private java.lang.String loginAccount;
 
-	@org.kie.api.definition.type.Label(value = "Login Password")
+	@org.kie.api.definition.type.Label("Login Password")
 	private java.lang.String loginPassword;
 
-	@org.kie.api.definition.type.Label(value = "Enabled")
+	@org.kie.api.definition.type.Label("Enabled")
 	private java.lang.Boolean enabled;
 
-	@org.kie.api.definition.type.Label(value = "Status")
+	@org.kie.api.definition.type.Label("Status")
 	private java.lang.Integer status;
+
+	@org.kie.api.definition.type.Label(value = "Bind Account List")
+	private java.util.List<com.example_demo.model.CustomerBindAccountDO> accountList;
 
 	public CustomerDO() {
 	}
@@ -106,11 +109,26 @@ public class CustomerDO implements java.io.Serializable {
 		this.status = status;
 	}
 
-	public CustomerDO(java.lang.Long customerId, java.lang.String customerName,
-			java.lang.Integer customerType, java.time.LocalDateTime createTime,
-			java.time.LocalDateTime updateTime, java.lang.String loginAccount,
-			java.lang.String loginPassword, java.lang.Boolean enabled,
-			java.lang.Integer status) {
+	public java.util.List<com.example_demo.model.CustomerBindAccountDO> getAccountList() {
+		return this.accountList;
+	}
+
+	public void setAccountList(
+			java.util.List<com.example_demo.model.CustomerBindAccountDO> accountList) {
+		this.accountList = accountList;
+	}
+
+	public CustomerDO(
+			java.lang.Long customerId,
+			java.lang.String customerName,
+			java.lang.Integer customerType,
+			java.time.LocalDateTime createTime,
+			java.time.LocalDateTime updateTime,
+			java.lang.String loginAccount,
+			java.lang.String loginPassword,
+			java.lang.Boolean enabled,
+			java.lang.Integer status,
+			java.util.List<com.example_demo.model.CustomerBindAccountDO> accountList) {
 		this.customerId = customerId;
 		this.customerName = customerName;
 		this.customerType = customerType;
@@ -120,6 +138,7 @@ public class CustomerDO implements java.io.Serializable {
 		this.loginPassword = loginPassword;
 		this.enabled = enabled;
 		this.status = status;
+		this.accountList = accountList;
 	}
 
 }
