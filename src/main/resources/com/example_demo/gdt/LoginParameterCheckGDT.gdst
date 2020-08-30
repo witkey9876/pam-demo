@@ -25,61 +25,6 @@
   </attributeCols>
   <conditionPatterns>
     <Pattern52>
-      <factType>AtomicBoolean</factType>
-      <boundName>bool</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>186</width>
-          <header>Valid State</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>this</factField>
-          <fieldType>AtomicBoolean</fieldType>
-          <operator>==</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-      <entryPointName></entryPointName>
-    </Pattern52>
-    <Pattern52>
-      <factType>AtomicBoolean</factType>
-      <boundName>bool1</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>222</width>
-          <header>Effective account</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>this</factField>
-          <fieldType>AtomicBoolean</fieldType>
-          <operator>==</operator>
-          <valueList></valueList>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-      <entryPointName></entryPointName>
-    </Pattern52>
-    <Pattern52>
       <factType>LogDO</factType>
       <boundName>log</boundName>
       <isNegated>false</isNegated>
@@ -92,6 +37,61 @@
           <factField>this</factField>
           <fieldType>LogDO</fieldType>
           <operator>!= null</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
+    <Pattern52>
+      <factType>ActionResultDO</factType>
+      <boundName>actionResult1</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>186</width>
+          <header>Valid State</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>boolResult</factField>
+          <fieldType>Boolean</fieldType>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
+    <Pattern52>
+      <factType>ActionResultDO</factType>
+      <boundName>bool</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>222</width>
+          <header>Effective account</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>boolResult</factField>
+          <fieldType>Boolean</fieldType>
+          <operator>==</operator>
+          <valueList></valueList>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -156,6 +156,9 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.example_demo.model.LogDO</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.example_demo.model.ActionResultDO</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.example_demo.gdt</packageName>
@@ -180,13 +183,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -219,17 +224,19 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
