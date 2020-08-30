@@ -246,7 +246,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>LoginValidate</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
