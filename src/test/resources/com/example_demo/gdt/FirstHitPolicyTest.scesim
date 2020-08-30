@@ -56,18 +56,25 @@
           <columnWidth>274.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements/>
+          <expressionElements>
+            <ExpressionElement>
+              <step>LogDO</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>msg</step>
+            </ExpressionElement>
+          </expressionElements>
           <expressionIdentifier>
             <name>1598765166905</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Empty</name>
-            <className>java.lang.Void</className>
+            <name>1598765166905</name>
+            <className>com.example_demo.model.LogDO</className>
           </factIdentifier>
-          <className>java.lang.Void</className>
-          <factAlias>INSTANCE 4</factAlias>
-          <expressionAlias>PROPERTY 4</expressionAlias>
+          <className>java.lang.String</className>
+          <factAlias>LogDO</factAlias>
+          <expressionAlias>msg</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>274.0</columnWidth>
         </FactMapping>
@@ -110,13 +117,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>1598765166905</name>
+              <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1598765166905</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">row2</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -155,13 +163,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>1598765166905</name>
+              <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1598765166905</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">row3</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -201,13 +210,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>1598765166905</name>
+              <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1598765166905</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">row1</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
