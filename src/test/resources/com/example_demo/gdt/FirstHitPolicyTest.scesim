@@ -158,7 +158,6 @@
               <name>1598765235505</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -215,7 +214,6 @@
               <name>1598765235505</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -273,7 +271,6 @@
               <name>1598765235505</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
