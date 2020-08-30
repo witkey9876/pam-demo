@@ -117,7 +117,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Fire Row 1</valueString>
+        <valueString>&quot;Fire Row 1&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -140,7 +140,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Fire Row 2</valueString>
+        <valueString>&quot;Fire Row 2&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -163,7 +163,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Fire Row 3</valueString>
+        <valueString>&quot;Fire Row 3&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
