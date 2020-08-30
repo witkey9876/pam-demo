@@ -107,7 +107,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string"># 10</rawValue>
+            <rawValue class="string"># new BigDecimal(&quot;20&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
