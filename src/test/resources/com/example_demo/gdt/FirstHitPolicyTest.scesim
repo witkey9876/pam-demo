@@ -53,7 +53,27 @@
           <factAlias>CustomerInfoDO</factAlias>
           <expressionAlias>annualIncome</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>274.0</columnWidth>
+          <columnWidth>182.66666666666666</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>LogDO</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1598765235505</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>1598765166905</name>
+            <className>com.example_demo.model.LogDO</className>
+          </factIdentifier>
+          <className>com.example_demo.model.LogDO</className>
+          <factAlias>LogDO</factAlias>
+          <expressionAlias>expression &lt;/&gt;</expressionAlias>
+          <factMappingValueType>EXPRESSION</factMappingValueType>
+          <columnWidth>182.66666666666666</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +96,7 @@
           <factAlias>LogDO</factAlias>
           <expressionAlias>msg</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>274.0</columnWidth>
+          <columnWidth>182.66666666666666</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -126,6 +146,16 @@
             </expressionIdentifier>
             <rawValue class="string">row2</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>1598765166905</name>
+              <className>com.example_demo.model.LogDO</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1598765235505</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -171,6 +201,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">row3</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>1598765166905</name>
+              <className>com.example_demo.model.LogDO</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1598765235505</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -218,6 +258,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">row1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>1598765166905</name>
+              <className>com.example_demo.model.LogDO</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1598765235505</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
