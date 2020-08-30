@@ -63,7 +63,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
           <fieldType>LogDO</fieldType>
-          <operator>()</operator>
+          <operator></operator>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -211,9 +211,8 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <valueString>true</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -252,9 +251,8 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <valueString>true</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
