@@ -30,47 +30,6 @@
       <isNegated>false</isNegated>
       <conditions>
         <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Password</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>loginPassword</factField>
-          <fieldType>String</fieldType>
-          <operator>==</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Login Account</header>
-          <constraintValueType>3</constraintValueType>
-          <factField>loginAccount</factField>
-          <fieldType>String</fieldType>
-          <operator>==</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Account List</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>accountList</factField>
-          <fieldType>Collection</fieldType>
-          <operator>!= null</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-        <condition-column52>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>Customer</header>
@@ -147,6 +106,12 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).s
 insert(Arrays.asList(bool,bool1,log));
 getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login&quot;).setFocus();</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+        <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
+          <variableName>customer</variableName>
+        </org.drools.workbench.models.datamodel.rule.ActionRetractFact>
+        <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
+          <variableName>log</variableName>
+        </org.drools.workbench.models.datamodel.rule.ActionRetractFact>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
@@ -224,22 +189,6 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login&quot;).setFocus(
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -273,22 +222,6 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login&quot;).setFocus(
       <value>
         <valueString>LoginValidate</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
