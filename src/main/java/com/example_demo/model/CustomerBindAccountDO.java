@@ -8,8 +8,6 @@ public class CustomerBindAccountDO implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label("Info ID")
-	private java.lang.Long infoId;
 	@org.kie.api.definition.type.Label("Customer ID")
 	private java.lang.Long customerId;
 	@org.kie.api.definition.type.Label("Bind Account")
@@ -24,14 +22,6 @@ public class CustomerBindAccountDO implements java.io.Serializable {
 	private java.time.LocalDateTime updateTime;
 
 	public CustomerBindAccountDO() {
-	}
-
-	public java.lang.Long getInfoId() {
-		return this.infoId;
-	}
-
-	public void setInfoId(java.lang.Long infoId) {
-		this.infoId = infoId;
 	}
 
 	public java.lang.Long getCustomerId() {
@@ -82,12 +72,10 @@ public class CustomerBindAccountDO implements java.io.Serializable {
 		this.updateTime = updateTime;
 	}
 
-	public CustomerBindAccountDO(java.lang.Long infoId,
-			java.lang.Long customerId, java.lang.String bindAccount,
-			java.lang.String bindAccountType, java.lang.Boolean validation,
-			java.time.LocalDateTime createTime,
+	public CustomerBindAccountDO(java.lang.Long customerId,
+			java.lang.String bindAccount, java.lang.String bindAccountType,
+			java.lang.Boolean validation, java.time.LocalDateTime createTime,
 			java.time.LocalDateTime updateTime) {
-		this.infoId = infoId;
 		this.customerId = customerId;
 		this.bindAccount = bindAccount;
 		this.bindAccountType = bindAccountType;
