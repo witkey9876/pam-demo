@@ -31,7 +31,7 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>153</width>
           <header>Customer</header>
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
