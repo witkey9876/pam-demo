@@ -16,5 +16,6 @@ public class KieSessionTools {
             kieSession.getAgenda().getAgendaGroup(groupName).setFocus();
         }
         kieSession.fireAllRules();
+        kieSession.dispose();
     }
 }

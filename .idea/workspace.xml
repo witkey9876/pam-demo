@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f6ce5ff-99e9-4686-90c9-6d86da290fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example_demo/model/KieSessionTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/example_demo/example/Order1.drl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/example/Order1.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example_demo/model/KieSessionTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example_demo/model/KieSessionTools.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example_demo/model/KieSessionTools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+            <state relative-caret-position="270">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -606,7 +604,7 @@
       <workItem from="1598770838972" duration="10810000" />
       <workItem from="1598789661701" duration="2887000" />
       <workItem from="1598794032262" duration="3015000" />
-      <workItem from="1598797653491" duration="2335000" />
+      <workItem from="1598797653491" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="add hit policy">
       <created>1598755818237</created>
@@ -651,7 +649,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25060000" />
+    <option name="totallyTimeSpent" value="25386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -662,14 +660,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27682403" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27682403" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3283767" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.40520447" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.40520447" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.4944238" />
@@ -1076,8 +1074,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example_demo/model/KieSessionTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
