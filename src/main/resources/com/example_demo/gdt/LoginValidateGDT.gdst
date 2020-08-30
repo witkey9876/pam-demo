@@ -103,7 +103,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-account&quot;).s
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>insert(bool1);insert(bool);insert(log);
-getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus();</text>
+getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&quot;).setFocus(); </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.ActionRetractFact>
           <variableName>customer</variableName>
@@ -115,7 +115,7 @@ getKieRuntime().getAgenda().getAgendaGroup(&quot;customer-login-parameter-check&
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>188</width>
+          <width>100</width>
           <header>FireOtherDecisionTable</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
