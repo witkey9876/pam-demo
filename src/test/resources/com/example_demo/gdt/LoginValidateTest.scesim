@@ -53,7 +53,7 @@
           <factAlias>CustomerDO</factAlias>
           <expressionAlias>status</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>137.0</columnWidth>
+          <columnWidth>182.66666666666666</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,30 +76,7 @@
           <factAlias>CustomerDO</factAlias>
           <expressionAlias>loginAccount</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>137.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>LogDO</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>msg</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1598785015969</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>1598785015969</name>
-            <className>com.example_demo.model.LogDO</className>
-          </factIdentifier>
-          <className>java.lang.String</className>
-          <factAlias>LogDO</factAlias>
-          <expressionAlias>this != null</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>137.0</columnWidth>
+          <columnWidth>182.66666666666666</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -122,7 +99,7 @@
           <factAlias>LogDO</factAlias>
           <expressionAlias>this != null</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>137.0</columnWidth>
+          <columnWidth>182.66666666666666</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -163,17 +140,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>1598785015969</name>
-              <className>com.example_demo.model.LogDO</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">success111</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>1|1</name>
               <className>com.example_demo.model.CustomerDO</className>
             </factIdentifier>
@@ -189,10 +155,9 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598785015969</name>
-              <type>GIVEN</type>
+              <name>1|2</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;abcd&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -230,17 +195,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>1598785015969</name>
-              <className>com.example_demo.model.LogDO</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">error</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -256,8 +210,8 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598785015969</name>
-              <type>GIVEN</type>
+              <name>1|2</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
@@ -297,17 +251,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>1598785015969</name>
-              <className>com.example_demo.model.LogDO</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">error</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -323,8 +266,8 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598785015969</name>
-              <type>GIVEN</type>
+              <name>1|2</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
@@ -365,17 +308,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>1598785015969</name>
-              <className>com.example_demo.model.LogDO</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">error</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -391,8 +323,8 @@
               <className>com.example_demo.model.LogDO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1598785015969</name>
-              <type>GIVEN</type>
+              <name>1|2</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
