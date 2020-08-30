@@ -1,5 +1,7 @@
 package com.example_demo.model;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
 import java.util.Objects;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -48,28 +50,37 @@ public class ActionResultDO implements java.io.Serializable {
     }
 
     public static Boolean and(Boolean bool, Boolean bool1) {
-        Supplier<Boolean> supplier = () -> bool && bool1;
-        return operation(bool, bool1, supplier);
+        return operation(bool, bool1,false);
     }
 
     public static Boolean or(Boolean bool, Boolean bool1) {
         Supplier<Boolean> supplier = () -> bool || bool1;
-        return operation(bool, bool1, supplier);
+        return operation(bool, bool1,true);
 
     }
 
-    public static Boolean operation(Boolean bool, Boolean bool1, Supplier<Boolean> booleanSupplier) {
+    private static Boolean operation(Boolean bool, Boolean bool1,boolean isOr) {
         if (Objects.isNull(bool) && Objects.isNull(bool1)) {
             return null;
         }
+        if(isOr){
+            if (Objects.isNull(bool) && Objects.nonNull(bool1)) {
+                return bool1;
+            }
+
+            if (Objects.nonNull(bool) && Objects.isNull(bool1)) {
+                return bool;
+            }
+            return bool || bool1;
+        }
 
         if (Objects.isNull(bool) && Objects.nonNull(bool1)) {
-            return bool1;
+            return Boolean.FALSE;
         }
 
         if (Objects.nonNull(bool) && Objects.isNull(bool1)) {
-            return bool;
+            return Boolean.FALSE;
         }
-        return booleanSupplier.get();
+        return bool && bool1;
     }
 }
