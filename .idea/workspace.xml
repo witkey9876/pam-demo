@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f6ce5ff-99e9-4686-90c9-6d86da290fd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example_demo/gr/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/gdt/LoginValidateGDT.gdst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/gr/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example_demo/gr/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/example_demo/gr/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example_demo/model/CustomerDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example_demo/model/CustomerDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example_demo/model/ConstantEnum.enumeration" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example_demo/model/ConstantEnum.enumeration" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="750">
-                <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -268,45 +274,6 @@
               <item name="example_demo" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.kie:kie-api:7.30.0.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.kie:kie-api:7.30.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="kie-api-7.30.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.kie:kie-api:7.30.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="kie-api-7.30.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.kie:kie-api:7.30.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="kie-api-7.30.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="definition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.kie:kie-api:7.30.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="kie-api-7.30.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="definition" type="462c0819:PsiDirectoryNode" />
-              <item name="type" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -411,7 +378,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598755215685</updated>
       <workItem from="1598755220141" duration="6013000" />
-      <workItem from="1598770838972" duration="3086000" />
+      <workItem from="1598770838972" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="add hit policy">
       <created>1598755818237</created>
@@ -424,7 +391,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9099000" />
+    <option name="totallyTimeSpent" value="9998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -602,8 +569,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="750">
-            <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
