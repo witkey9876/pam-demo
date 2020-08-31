@@ -3,9 +3,12 @@ package com.example_demo.model;
 import org.drools.core.spi.KnowledgeHelper;
 import org.kie.api.runtime.KieSession;
 import org.kie.api.runtime.KieSessionsPool;
+import org.kie.api.runtime.rule.FactHandle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class KieSessionTools {
@@ -28,16 +31,25 @@ public class KieSessionTools {
 
     public static final void fired(KnowledgeHelper helper,String groupName,Object ...facts){
 
-//        sessionsPool = getSessionsPool(helper);
-        KieSession kieSession = helper.getKieRuntime().getKieBase().newKieSession();
-//        KieSession kieSession = sessionsPool.newKieSession();
-        for(Object fact:facts) {
-            kieSession.insert(fact);
+        sessionsPool = getSessionsPool(helper);
+//        KieSession kieSession = helper.getKieRuntime().getKieBase().newKieSession();
+        KieSession kieSession = sessionsPool.newKieSession();
+        try {
+            List<FactHandle> factHandleList = new ArrayList<>();
+            for (Object fact : facts) {
+                FactHandle factHandle = kieSession.insert(fact);
+            }
+            if (Objects.nonNull(groupName)) {
+                kieSession.getAgenda().getAgendaGroup(groupName).setFocus();
+            }
+            kieSession.fireAllRules();
+            factHandleList.forEach((factHandle)->{
+                kieSession.delete(factHandle);
+            });
+
+        }finally {
+            kieSession.dispose();
         }
-        if(Objects.nonNull(groupName)){
-            kieSession.getAgenda().getAgendaGroup(groupName).setFocus();
-        }
-        kieSession.fireAllRules();
-        kieSession.dispose();
+
     }
 }
