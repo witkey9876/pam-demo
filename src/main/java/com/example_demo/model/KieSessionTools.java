@@ -16,11 +16,12 @@ public class KieSessionTools {
 
     private static Logger Log  = LoggerFactory.getLogger("KieSessionTools");
     private static volatile KieSessionsPool sessionsPool;
+    private static Object lock = new Object();
     private static final Integer POOL_SIZE = 100;
 
     public static KieSessionsPool getSessionsPool(KnowledgeHelper helper){
         if(Objects.isNull(sessionsPool)) {
-            synchronized (sessionsPool) {
+            synchronized (lock) {
                 if(Objects.isNull(sessionsPool)) {
                     sessionsPool = helper.getKieRuntime().getKieBase().newKieSessionsPool(POOL_SIZE);
                 }
@@ -43,6 +44,7 @@ public class KieSessionTools {
                 kieSession.getAgenda().getAgendaGroup(groupName).setFocus();
             }
             kieSession.fireAllRules();
+
             factHandleList.forEach((factHandle)->{
                 kieSession.delete(factHandle);
             });
