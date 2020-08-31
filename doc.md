@@ -1,7 +1,7 @@
-Repository Init Content
+redhat RHPAM 
 =======================
 
-## 1. redhat RHPAM 决策表 Hit Policy
+## 1.  决策表 Hit Policy
 ###### 1. None
 ```
 This is the normal hit mode. Old decision tables will use this by default, 
@@ -30,4 +30,24 @@ First hit fires only one row, the one that is satisfied first from top to bottom
 Multiple rows can fire and Verification does not report about conflicts between 
 the rows since they are expected to happen.
 ```
+###### 6. 案例
+```
+NoneHitPolicyGDT
+ResolvedHitPolicyGDT
+UniqueHitPolicyGDT
+FirstHitPolicyGDT
+RuleHitPolicyGDT
 
+测试案例正常,但PAM7的new测试模拟器有问题，可以使用Test Scenario (Legacy)
+```
+## 2.  决策表 Flow
+###### 1. 实现方式
+```
+实现决策表流程有两种方式：
+1. 使用business process将各个决策表串联起来
+2. 使用决策表调用决策表的方式达到实现流程的效果
+```
+###### 2. 案例演示
+```
+演示方式2,查看LoginValidateGDT,可以运行LoginValidateTest(Legacy),查看效果
+```
