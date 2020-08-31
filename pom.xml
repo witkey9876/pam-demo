@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example-demo</groupId>
-  <artifactId>Example</artifactId>
+  <artifactId>pam-demo</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>Example</name>
+  <name>pam-demo</name>
   <description></description>
   <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
